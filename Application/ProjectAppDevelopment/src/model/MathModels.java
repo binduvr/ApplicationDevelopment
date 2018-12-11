@@ -31,7 +31,7 @@ public class MathModels {
 	
 	public XYChart.Series<Number, Number> basicLogisticGrowth(Species species, int time) {
 		XYChart.Series<Number, Number> series = new XYChart.Series<Number, Number>();
-		series.setName(species.getName()+" Logistic");
+		series.setName(species.getName());
 		
 		int N0 = species.getInitialPopulation();
 		double r = species.getGrowthRate();
