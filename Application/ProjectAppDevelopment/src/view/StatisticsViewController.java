@@ -6,10 +6,12 @@ import javafx.scene.chart.CategoryAxis;
 import javafx.scene.chart.LineChart;
 import javafx.scene.chart.NumberAxis;
 import javafx.scene.chart.XYChart;
+import model.Species;
+import model.MathModels;
 
 public class StatisticsViewController {
 	private MainApp mainApp;
-	
+	private MathModels models;
 	@FXML
 	private LineChart<Number, Number> lineChart;
 	
@@ -18,28 +20,33 @@ public class StatisticsViewController {
     @FXML
     private NumberAxis yAxis;
     
-	private XYChart.Series<Number, Number> series;
+    
 	
 	@FXML
 	private void initialize() {
-		lineChart.setTitle("Animal populations");
-		series = new XYChart.Series<Number, Number>();
-	    
-		
-		series.setName("Data Series 1");
-	    
-	    
-        series.getData().add(new XYChart.Data<Number, Number>(1, 23));
-        series.getData().add(new XYChart.Data<Number, Number>(2, 14));
-        series.getData().add(new XYChart.Data<Number, Number>(3, 15));
-        series.getData().add(new XYChart.Data<Number, Number>(4, 24));
-        series.getData().add(new XYChart.Data<Number, Number>(5, 34));
-        series.getData().add(new XYChart.Data<Number, Number>(6, 36));
-        
-        lineChart.getData().add(series);
-	    
-	}
+		models = new MathModels();
+		lineChart.setTitle("Animal Populations");
 
+		showGraph();
+	}
+	
+	@FXML
+	public void handleShowGraph() {
+		
+	}
+	public void showGraph() {
+		Species cow = new Species("Cow", 30, 400, 1.33, 1);
+
+		//Shows carrying capacity for testing purposes
+		XYChart.Series<Number, Number> series = new XYChart.Series<Number, Number>();
+		series.setName("Carrying capacity");
+		series.getData().add(new XYChart.Data<Number, Number>(0,cow.getCarryingCapacity()));
+		series.getData().add(new XYChart.Data<Number, Number>(20,cow.getCarryingCapacity()));
+		
+        lineChart.getData().add(series);
+        lineChart.getData().add(models.basicLogisticGrowth(cow, 20));
+
+	}
 	public void setMainApp(MainApp mainApp) {
 		this.mainApp = mainApp;
 	}

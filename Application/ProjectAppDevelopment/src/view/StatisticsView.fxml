@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.chart.CategoryAxis?>
 <?import javafx.scene.chart.LineChart?>
 <?import javafx.scene.chart.NumberAxis?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.StatisticsViewController">
+<AnchorPane prefHeight="450.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.StatisticsViewController">
    <children>
-      <LineChart fx:id="lineChart" layoutX="467.0" layoutY="14.0" prefHeight="412.0" prefWidth="519.0">
+      <LineChart fx:id="lineChart" layoutX="267.0" layoutY="8.0" prefHeight="412.0" prefWidth="519.0">
         <xAxis>
-          <NumberAxis fx:id="xAxis" label="Time" side="BOTTOM" />
+          <NumberAxis label="Time" side="BOTTOM" fx:id="xAxis" />
         </xAxis>
         <yAxis>
           <NumberAxis fx:id="yAxis" label="Population" side="LEFT" />
