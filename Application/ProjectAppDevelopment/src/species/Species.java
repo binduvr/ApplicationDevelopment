@@ -1,4 +1,4 @@
-package model;
+package species;
 
 public class Species implements Comparable<Species> {
 	private String name;

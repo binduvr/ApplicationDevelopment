@@ -10,7 +10,7 @@ import javafx.scene.chart.XYChart;
 import javafx.scene.control.ComboBox;
 import javafx.scene.control.TextField;
 import model.MathModels;
-import model.Species;
+import species.Species;
 
 public class StatisticsViewController {
 	private MainApp mainApp;

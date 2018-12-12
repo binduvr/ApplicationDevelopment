@@ -1,6 +1,7 @@
 package model;
 
 import javafx.scene.chart.XYChart;
+import species.Species;
 
 public class MathModels {
 	

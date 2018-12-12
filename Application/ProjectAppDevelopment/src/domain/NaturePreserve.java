@@ -1,20 +1,22 @@
-package model;
+package domain;
 
 import java.util.Set;
 
-public class NatureReserve {
+import species.Species;
+
+public class NaturePreserve {
 	private int size;
 	private Set<Species> differentSpecies;
 	
-	private NatureReserve internalObject = null;
+	private NaturePreserve internalObject = null;
 	
-	public NatureReserve instance(int size, Set<Species> differentSpecies) {
+	public NaturePreserve instance(int size, Set<Species> differentSpecies) {
 		if(internalObject==null) {
-			internalObject = new NatureReserve(size, differentSpecies);
+			internalObject = new NaturePreserve(size, differentSpecies);
 		}
 		return internalObject;
 	}
-	public NatureReserve(int size, Set<Species> differentSpecies) {
+	public NaturePreserve(int size, Set<Species> differentSpecies) {
 		super();
 		this.size = size;
 		this.differentSpecies = differentSpecies;
