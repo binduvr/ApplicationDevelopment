@@ -46,6 +46,10 @@ public class StatisticsViewController {
 	@FXML
 	public void handleShowGraph() {
 		lineChart.getData().clear();
+		
+		//make it get values of species from nature reserve at given time
+		//so each point gets the values of cow, deer and horse and displays them
+		//instantiate nature reserve with time
 		Species cow = new Species("Cow", 30, 400, 1.33, 1);
 
 		if(!numYears.getText().equals("")) {
