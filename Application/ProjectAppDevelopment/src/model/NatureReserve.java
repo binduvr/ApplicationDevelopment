@@ -5,24 +5,15 @@ import java.util.Set;
 public class NatureReserve {
 	private int size;
 	private Set<Species> differentSpecies;
+	//dont have to do total
 	private int totalInitialPopulation;
 	private double totalBirthRate;
 	private double totalDeathRate;
 	private double totalGrowthRate;
 	private int totalCarryingCapacity;
 	
-	private static NatureReserve internalObject = null;
 	
-	//Singleton. There can only be one nature reserve
-	public static NatureReserve instance(int size, Set<Species> differentSpecies, int totalInitialPopulation, double totalBirthRate,
-			double totalDeathRate, int totalCarryingCapacity) {
-		if (internalObject == null) {
-			internalObject = new NatureReserve(size, differentSpecies, totalInitialPopulation, totalBirthRate,
-					totalDeathRate, totalCarryingCapacity);
-		}
-		return internalObject;
-	}
-	private NatureReserve(int size, Set<Species> differentSpecies, int totalInitialPopulation, double totalBirthRate,
+	public NatureReserve(int size, Set<Species> differentSpecies, int totalInitialPopulation, double totalBirthRate,
 			double totalDeathRate, int totalCarryingCapacity) {
 		super();
 		this.size = size;
