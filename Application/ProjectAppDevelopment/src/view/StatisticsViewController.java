@@ -50,6 +50,9 @@ public class StatisticsViewController {
 		//make it get values of species from nature reserve at given time
 		//so each point gets the values of cow, deer and horse and displays them
 		//instantiate nature reserve with time
+		
+		//make models seperate classes
+		//make factory to tell which model is to be used
 		Species cow = new Species("Cow", 30, 400, 1.33, 1);
 
 		if(!numYears.getText().equals("")) {
