@@ -1,11 +1,13 @@
 package domain;
 
+import java.time.LocalDate;
 import java.util.Set;
 
 import species.Species;
 
 public class NaturePreserve {
 	private int size;
+	private LocalDate time;
 	private Set<Species> differentSpecies;
 	
 	private NaturePreserve internalObject = null;
@@ -16,7 +18,7 @@ public class NaturePreserve {
 		}
 		return internalObject;
 	}
-	public NaturePreserve(int size, Set<Species> differentSpecies) {
+	private NaturePreserve(int size, Set<Species> differentSpecies) {
 		super();
 		this.size = size;
 		this.differentSpecies = differentSpecies;
