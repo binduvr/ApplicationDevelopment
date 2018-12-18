@@ -1,18 +1,25 @@
 package species;
 
-public class KonikHorse {
-	private String name;
-	private int initialPopulation;
-	private int carryingCapacity;
-	private double birthRate;
-	private double deathRate;
-	private double growthRate;
-	public KonikHorse(int initialPopulation, int carryingCapacity, double birthRate, double deathRate) {
+import java.io.File;
+
+public class KonikHorse extends LargeHerbivore {
+	
+	public KonikHorse() {
 		super();
-		this.initialPopulation = initialPopulation;
-		this.carryingCapacity = carryingCapacity;
-		this.birthRate = birthRate;
-		this.deathRate = deathRate;
-		this.growthRate = birthRate-deathRate;
+	}
+	public KonikHorse(int initialPopulation, int carryingCapacity, double birthRate, double deathRate) {
+		super(initialPopulation, carryingCapacity, birthRate, deathRate);
+	}
+	
+	@Override
+	public void reset() {
+		super.setFile(new File("src/data/KonikHorse.txt"));
+		super.setName("Konik Horse");
+		super.setInitialPop(20);
+		super.setYearIntroduced("1984");
+		super.setCarryingCap(1200);
+		super.setBirthRate(1.25);
+		super.setDeathRate(1);
+		calcGrowth();
 	}
 }

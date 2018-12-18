@@ -1,21 +1,28 @@
 package species;
 
-public class HeckCattle {
-	private String name;
-	private int initialPopulation;
-	private int carryingCapacity;
-	private double birthRate;
-	private double deathRate;
-	private double growthRate;
+import java.io.File;
+import java.io.IOException;
+import java.util.List;
+
+import org.apache.commons.io.FileUtils;
+
+public class HeckCattle extends LargeHerbivore {
 	public HeckCattle() {
-		//get and set the values from a text file
+		super();
 	}
 	public HeckCattle(int initialPopulation, int carryingCapacity, double birthRate, double deathRate) {
-		super();
-		this.initialPopulation = initialPopulation;
-		this.carryingCapacity = carryingCapacity;
-		this.birthRate = birthRate;
-		this.deathRate = deathRate;
-		this.growthRate = birthRate-deathRate;
+		super(initialPopulation, carryingCapacity, birthRate, deathRate);
+	}
+	
+	@Override
+	public void reset() {
+		super.setFile(new File("src/data/HeckCattle.txt"));
+		super.setName("Heck Cattle");
+		super.setInitialPop(30);
+		super.setYearIntroduced("1983");
+		super.setCarryingCap(400);
+		super.setBirthRate(1.33);
+		super.setDeathRate(1);
+		calcGrowth();
 	}
 }

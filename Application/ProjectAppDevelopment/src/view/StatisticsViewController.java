@@ -1,6 +1,10 @@
 package view;
 
+import java.time.Year;
+import java.util.Iterator;
+
 import application.MainApp;
+import domain.NaturePreserve;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
@@ -10,7 +14,8 @@ import javafx.scene.chart.XYChart;
 import javafx.scene.control.ComboBox;
 import javafx.scene.control.TextField;
 import model.MathModels;
-import species.Species;
+import model.ModelFactory;
+import species.*;
 
 public class StatisticsViewController {
 	private MainApp mainApp;
@@ -32,7 +37,7 @@ public class StatisticsViewController {
 	@FXML
 	private void initialize() {
 		options = FXCollections.observableArrayList("Exponential Growth","Logistic Growth");
-		models = new MathModels();
+//		models = new MathModels();
 		timeRange = 20;
 		numYears.setText(Integer.toString(timeRange));
 		modelChoice.setItems(options);
@@ -46,20 +51,48 @@ public class StatisticsViewController {
 	@FXML
 	public void handleShowGraph() {
 		lineChart.getData().clear();
+		NaturePreserve preserve = NaturePreserve.instance(null);
 		
-		//make it get values of species from nature reserve at given time
-		//so each point gets the values of cow, deer and horse and displays them
-		//instantiate nature reserve with time
+		//Doing this because switch isnt working
+		if(modelChoice.getSelectionModel().getSelectedItem()=="Exponential Growth") {
+			System.out.println("Exp growth");
+			ModelFactory.setModel("EXP");
+		} else {
+			System.out.println("log growth");
+			ModelFactory.setModel("LOG");
+		}
 		
-		//make models seperate classes
-		//make factory to tell which model is to be used
-		Species cow = new Species("Cow", 30, 400, 1.33, 1);
-
+		
+		//Really sloppy just temporary to show graph
+//		LargeHerbivore cow = new HeckCattle();
+//		LargeHerbivore horse = new KonikHorse();
+//		LargeHerbivore deer = new RedDeer();
+//		if(!numYears.getText().equals("")) {
+//			timeRange = Integer.parseInt(numYears.getText().toString());
+//		}
+//		
+//        lineChart.getData().add(models.basicLogisticGrowth(cow, timeRange));
+//        lineChart.getData().add(models.basicLogisticGrowth(horse, timeRange));
+//        lineChart.getData().add(models.basicLogisticGrowth(deer, timeRange));
+//        
+        
+        //Working on this
+		
 		if(!numYears.getText().equals("")) {
-			timeRange = Integer.parseInt(numYears.getText().toString());
+		timeRange = Integer.parseInt(numYears.getText().toString());
+		}
+		Iterator<LargeHerbivore> it = preserve.getDifferentSpecies().iterator();
+		while(it.hasNext()) {
+			LargeHerbivore species = it.next();
+			XYChart.Series<Number, Number> series = new XYChart.Series<Number, Number>();
+			series.setName(species.getName());
+			for(int i=0;i<=timeRange;i++) {
+				int population = preserve.getState(Year.parse(Integer.toString(i+1983))).getSpecies(species.getName()).getCurrentPopulation();
+				series.getData().add(new XYChart.Data<Number, Number>(i,population));
+			}
+			lineChart.getData().add(series);
 		}
 
-        lineChart.getData().add(models.basicLogisticGrowth(cow, timeRange));
 	}
 
 	public void setMainApp(MainApp mainApp) {

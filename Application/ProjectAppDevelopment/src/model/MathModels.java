@@ -1,7 +1,7 @@
 package model;
 
 import javafx.scene.chart.XYChart;
-import species.Species;
+import species.LargeHerbivore;
 
 public class MathModels {
 	
@@ -16,11 +16,11 @@ public class MathModels {
 	}
 	
 	
-	public XYChart.Series<Number, Number> basicExpGrowth(Species species, int time) {		
+	public XYChart.Series<Number, Number> basicExpGrowth(LargeHerbivore species, int time) {		
 		XYChart.Series<Number, Number> series = new XYChart.Series<Number, Number>();
 		series.setName(species.getName());
 		
-		int N0 = species.getInitialPopulation();
+		int N0 = species.getInitialPop();
 		double r = species.getGrowthRate();
 		
 		for(int i=0;i<time;i++) {
@@ -30,13 +30,13 @@ public class MathModels {
         return series;
 	}
 	
-	public XYChart.Series<Number, Number> basicLogisticGrowth(Species species, int time) {
+	public XYChart.Series<Number, Number> basicLogisticGrowth(LargeHerbivore species, int time) {
 		XYChart.Series<Number, Number> series = new XYChart.Series<Number, Number>();
 		series.setName(species.getName());
 		
-		int N0 = species.getInitialPopulation();
+		int N0 = species.getInitialPop();
 		double r = species.getGrowthRate();
-		int K = species.getCarryingCapacity();
+		int K = species.getCarryingCap();
 	
 		for(int i=0;i<=time;i++) {
 			double y = basicLogisticCalc(N0, K, r, i);

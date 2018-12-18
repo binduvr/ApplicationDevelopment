@@ -1,44 +1,79 @@
 package domain;
 
-import java.time.LocalDate;
+import java.time.Year;
+import java.util.Iterator;
 import java.util.Set;
+import java.util.TreeSet;
 
-import species.Species;
+import model.IModel;
+import model.ModelFactory;
+import species.LargeHerbivore;
 
 public class NaturePreserve {
-	private int size;
-	private LocalDate time;
-	private Set<Species> differentSpecies;
+	private Year time;
+	private static IModel model;
+	private Set<LargeHerbivore> differentSpecies;
+	private TreeSet<Integer> speciesPopulations;
 	
-	private NaturePreserve internalObject = null;
+	private static NaturePreserve internalObject = null;
 	
-	public NaturePreserve instance(int size, Set<Species> differentSpecies) {
+	public static NaturePreserve instance(Set<LargeHerbivore> differentSpecies) {
 		if(internalObject==null) {
-			internalObject = new NaturePreserve(size, differentSpecies);
+			internalObject = new NaturePreserve(differentSpecies);
 		}
 		return internalObject;
 	}
-	private NaturePreserve(int size, Set<Species> differentSpecies) {
+	
+	private NaturePreserve(Set<LargeHerbivore> differentSpecies) {
 		super();
-		this.size = size;
+		this.time = Year.parse("1983");
+		NaturePreserve.model = ModelFactory.getModel();
 		this.differentSpecies = differentSpecies;
 	}
 	
-	public void addSpecies(Species species) {
+	public NaturePreserve getState(Year time) {
+		this.time = time;
+		Iterator<LargeHerbivore> it = differentSpecies.iterator();
+		while(it.hasNext()) {
+			LargeHerbivore temp = it.next();
+			if(temp.getYearIntroduced().equals(time) || temp.getYearIntroduced().isBefore(time)) {
+				temp = model.getState(temp, this);
+			} else {
+				temp.setCurrentPopulation(0);
+			}
+		}
+		return this;
+	}
+	
+	public void addSpecies(LargeHerbivore species) {
 		differentSpecies.add(species);
 	}
 	
+	public LargeHerbivore getSpecies(String name) {
+		Iterator<LargeHerbivore> it = differentSpecies.iterator();
+		while(it.hasNext()) {
+			LargeHerbivore temp = it.next();
+			if(temp.getName().equals(name)) {
+				return temp;
+			}
+		}
+		return null;
+	}
+	
 	//Getters and setters
-	public int getSize() {
-		return size;
+	public Year getTime() {
+		return time;
 	}
-	public void setSize(int size) {
-		this.size = size;
+	public void setTime(Year time) {
+		this.time = time;
 	}
-	public Set<Species> getDifferentSpecies() {
+	public Set<LargeHerbivore> getDifferentSpecies() {
 		return differentSpecies;
 	}
-	public void setDifferentSpecies(Set<Species> differentSpecies) {
+	public void setDifferentSpecies(Set<LargeHerbivore> differentSpecies) {
 		this.differentSpecies = differentSpecies;
+	}
+	public static void setModel(IModel model) {
+		NaturePreserve.model = model;
 	}
 }
