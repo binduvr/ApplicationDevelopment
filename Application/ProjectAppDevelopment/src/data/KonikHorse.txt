@@ -1,4 +1,7 @@
 Species: Konik Horse
 Intitial Population: 20
+Year introduced: 1984
 Carrying Capacity: 1200
-Growth Rate: 0.224
+Instantanious Birthrate: 1.25
+Instantanious Deathrate: 1.0
+Growth Rate: 0.25

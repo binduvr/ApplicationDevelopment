@@ -7,8 +7,8 @@ public class RedDeer extends LargeHerbivore {
 	public RedDeer() {
 		super();
 	}
-	public RedDeer(int initialPopulation, int carryingCapacity, double growthRate) {
-		super(initialPopulation, carryingCapacity, growthRate);
+	public RedDeer(int initialPopulation, int carryingCapacity, double birthRate, double deathRate) {
+		super(initialPopulation, carryingCapacity, birthRate, deathRate);
 	}
 	
 	@Override
@@ -16,10 +16,10 @@ public class RedDeer extends LargeHerbivore {
 		super.setFile(new File("src/data/RedDeer.txt"));
 		super.setName("Red Deer");
 		super.setInitialPop(45);
-//		super.setYearIntroduced("1992");
+		super.setYearIntroduced("1992");
 		super.setCarryingCap(3150);
-//		super.setBirthRate(1.27);
-//		super.setDeathRate(1);
-		super.setGrowthRate(0.19);
+		super.setBirthRate(1.27);
+		super.setDeathRate(1);
+		calcGrowth();
 	}
 }
