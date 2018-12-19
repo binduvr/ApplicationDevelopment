@@ -113,17 +113,6 @@ public abstract class LargeHerbivore implements Comparable<LargeHerbivore> {
 		this.initialPop = initialPop;
 //		saveSettings();
 	}
-//	public Year getYearIntroduced() {
-//		return yearIntroduced;
-//	}
-////	public void setYearIntroduced(Year yearIntroduced) {
-////		this.yearIntroduced = yearIntroduced;
-//////		saveSettings();
-////	}
-//	public void setYearIntroduced(String yearIntroduced) {
-//		this.yearIntroduced = Year.parse(yearIntroduced);
-////		saveSettings();
-//	}
 	
 	public int getCarryingCap() {
 		return carryingCap;
@@ -141,26 +130,6 @@ public abstract class LargeHerbivore implements Comparable<LargeHerbivore> {
 	public void setGrowthRate(double growthRate) {
 		this.growthRate = growthRate;
 	}
-
-	//	public double getBirthRate() {
-//		return birthRate;
-//	}
-//
-//	public void setBirthRate(double birthRate) {
-//		this.birthRate = birthRate;
-//		calcGrowth();
-////		saveSettings();
-//	}
-//
-//	public double getDeathRate() {
-//		return deathRate;
-//	}
-//
-//	public void setDeathRate(double deathRate) {
-//		this.deathRate = deathRate;
-//		calcGrowth();
-////		saveSettings();
-//	}
 
 	@Override
 	public boolean equals(Object obj) {
