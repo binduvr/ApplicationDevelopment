@@ -55,10 +55,8 @@ public class StatisticsViewController {
 		
 		//Doing this because switch isnt working
 		if(modelChoice.getSelectionModel().getSelectedItem()=="Exponential Growth") {
-			System.out.println("Exp growth");
 			ModelFactory.setModel("EXP");
 		} else {
-			System.out.println("log growth");
 			ModelFactory.setModel("LOG");
 		}
 		
@@ -87,7 +85,7 @@ public class StatisticsViewController {
 			XYChart.Series<Number, Number> series = new XYChart.Series<Number, Number>();
 			series.setName(species.getName());
 			for(int i=0;i<=timeRange;i++) {
-				int population = preserve.getState(Year.parse(Integer.toString(i+1983))).getSpecies(species.getName()).getCurrentPopulation();
+				int population = preserve.getState(i).getSpecies(species.getName()).getCurrentPopulation();
 				series.getData().add(new XYChart.Data<Number, Number>(i,population));
 			}
 			lineChart.getData().add(series);

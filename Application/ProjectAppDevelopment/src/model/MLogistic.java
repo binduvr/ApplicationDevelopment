@@ -14,8 +14,8 @@ public class MLogistic implements IModel {
 	
 	@Override
 	public LargeHerbivore getState(LargeHerbivore species, NaturePreserve preserve) {
-		Year time = preserve.getTime();
-		species.setCurrentPopulation((int) basicLogisticCalc(species.getInitialPop(), species.getCarryingCap(), species.getGrowthRate(), Integer.parseInt(time.toString())-1983));
+		int time = preserve.getTime();
+		species.setCurrentPopulation((int) basicLogisticCalc(species.getInitialPop(), species.getCarryingCap(), species.getGrowthRate(), time));
 		return species;
 	}
 

@@ -22,8 +22,8 @@ public class Testing {
 		
 		NaturePreserve preserve = NaturePreserve.instance(set);
 		System.out.println(preserve.getSpecies("Red Deer").getCarryingCap());
-		System.out.println(preserve.getState(Year.parse("1985")).getSpecies("Heck Cattle").getCurrentPopulation());
-		System.out.println(preserve.getState(Year.parse("1983")).getSpecies("Konik Horse").getCurrentPopulation());
+		System.out.println(preserve.getState(2).getSpecies("Heck Cattle").getCurrentPopulation());
+		System.out.println(preserve.getState(3).getSpecies("Konik Horse").getCurrentPopulation());
 
 	}
 }

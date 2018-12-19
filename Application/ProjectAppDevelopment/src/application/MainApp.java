@@ -10,7 +10,6 @@ import javafx.scene.Scene;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.BorderPane;
 import javafx.stage.Stage;
-import model.ModelFactory;
 import species.HeckCattle;
 import species.KonikHorse;
 import species.LargeHerbivore;
@@ -26,9 +25,21 @@ public class MainApp extends Application {
 	public void start(Stage primaryStage) throws Exception {
 		MainApp.primaryStage = primaryStage;
 		MainApp.primaryStage.setTitle("ProjectAP v1.0");
-		
+
+		initData();
 		initRootLayout();
 		initStatisticsView();
+	}
+	
+	public void initData() {
+		LargeHerbivore deer = new RedDeer();
+		LargeHerbivore horse = new KonikHorse();
+		LargeHerbivore cow = new HeckCattle();
+		TreeSet<LargeHerbivore> set = new TreeSet<LargeHerbivore>();
+		set.add(deer);
+		set.add(horse);
+		set.add(cow);
+		NaturePreserve.instance(set);
 	}
 	
 	public void initRootLayout() {
@@ -51,14 +62,6 @@ public class MainApp extends Application {
 	public void initStatisticsView() {
 		//Init species
 //		ModelFactory.setModel("LOG");
-		LargeHerbivore deer = new RedDeer();
-		LargeHerbivore horse = new KonikHorse();
-		LargeHerbivore cow = new HeckCattle();
-		TreeSet<LargeHerbivore> set = new TreeSet<LargeHerbivore>();
-		set.add(deer);
-		set.add(horse);
-		set.add(cow);
-		NaturePreserve.instance(set);
 		try {
 			FXMLLoader loader = new FXMLLoader();
 			loader.setLocation(MainApp.class.getResource("../view/StatisticsView.fxml"));

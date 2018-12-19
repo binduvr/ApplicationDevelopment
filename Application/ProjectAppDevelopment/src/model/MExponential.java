@@ -1,7 +1,5 @@
 package model;
 
-import java.time.Year;
-
 import domain.NaturePreserve;
 import species.LargeHerbivore;
 
@@ -14,8 +12,8 @@ public class MExponential implements IModel {
 	
 	@Override
 	public LargeHerbivore getState(LargeHerbivore species, NaturePreserve preserve) {
-		Year time = preserve.getTime();
-		species.setCurrentPopulation((int) basicExponentialCalc(species.getInitialPop(), species.getGrowthRate(), Integer.parseInt(time.toString())-1983));
+		int time = preserve.getTime();
+		species.setCurrentPopulation((int) basicExponentialCalc(species.getInitialPop(), species.getGrowthRate(), time));
 		return species;
 	}
 	

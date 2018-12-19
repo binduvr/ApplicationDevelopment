@@ -10,7 +10,7 @@ import model.ModelFactory;
 import species.LargeHerbivore;
 
 public class NaturePreserve {
-	private Year time;
+	private int time;
 	private static IModel model;
 	private Set<LargeHerbivore> differentSpecies;
 	private TreeSet<Integer> speciesPopulations;
@@ -26,21 +26,17 @@ public class NaturePreserve {
 	
 	private NaturePreserve(Set<LargeHerbivore> differentSpecies) {
 		super();
-		this.time = Year.parse("1983");
+		this.time = 0;
 		NaturePreserve.model = ModelFactory.getModel();
 		this.differentSpecies = differentSpecies;
 	}
 	
-	public NaturePreserve getState(Year time) {
+	public NaturePreserve getState(int time) {
 		this.time = time;
 		Iterator<LargeHerbivore> it = differentSpecies.iterator();
 		while(it.hasNext()) {
 			LargeHerbivore temp = it.next();
-			if(temp.getYearIntroduced().equals(time) || temp.getYearIntroduced().isBefore(time)) {
-				temp = model.getState(temp, this);
-			} else {
-				temp.setCurrentPopulation(0);
-			}
+			temp = model.getState(temp, this);
 		}
 		return this;
 	}
@@ -61,10 +57,10 @@ public class NaturePreserve {
 	}
 	
 	//Getters and setters
-	public Year getTime() {
+	public int getTime() {
 		return time;
 	}
-	public void setTime(Year time) {
+	public void setTime(int time) {
 		this.time = time;
 	}
 	public Set<LargeHerbivore> getDifferentSpecies() {
