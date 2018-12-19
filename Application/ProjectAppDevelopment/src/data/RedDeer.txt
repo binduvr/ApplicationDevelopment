@@ -1,7 +1,4 @@
 Species: Red Deer
 Intitial Population: 45
-Year introduced: 1992
 Carrying Capacity: 3150
-Instantanious Birthrate: 1.27
-Instantanious Deathrate: 1.0
-Growth Rate: 0.27
+Growth Rate: 0.19
