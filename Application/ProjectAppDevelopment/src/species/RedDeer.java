@@ -16,10 +16,7 @@ public class RedDeer extends LargeHerbivore {
 		super.setFile(new File("src/data/RedDeer.txt"));
 		super.setName("Red Deer");
 		super.setInitialPop(45);
-//		super.setYearIntroduced("1992");
 		super.setCarryingCap(3150);
-//		super.setBirthRate(1.27);
-//		super.setDeathRate(1);
 		super.setGrowthRate(0.19);
 	}
 }

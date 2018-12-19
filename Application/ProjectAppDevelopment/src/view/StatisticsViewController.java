@@ -1,6 +1,5 @@
 package view;
 
-import java.time.Year;
 import java.util.Iterator;
 
 import application.MainApp;
@@ -13,13 +12,11 @@ import javafx.scene.chart.NumberAxis;
 import javafx.scene.chart.XYChart;
 import javafx.scene.control.ComboBox;
 import javafx.scene.control.TextField;
-import model.MathModels;
 import model.ModelFactory;
-import species.*;
+import species.LargeHerbivore;
 
 public class StatisticsViewController {
 	private MainApp mainApp;
-	private MathModels models;
 	
 	@FXML
 	private TextField numYears;
@@ -37,7 +34,6 @@ public class StatisticsViewController {
 	@FXML
 	private void initialize() {
 		options = FXCollections.observableArrayList("Exponential Growth","Logistic Growth");
-//		models = new MathModels();
 		timeRange = 20;
 		numYears.setText(Integer.toString(timeRange));
 		modelChoice.setItems(options);
@@ -59,20 +55,6 @@ public class StatisticsViewController {
 		} else {
 			ModelFactory.setModel("LOG");
 		}
-		
-		
-		//Really sloppy just temporary to show graph
-//		LargeHerbivore cow = new HeckCattle();
-//		LargeHerbivore horse = new KonikHorse();
-//		LargeHerbivore deer = new RedDeer();
-//		if(!numYears.getText().equals("")) {
-//			timeRange = Integer.parseInt(numYears.getText().toString());
-//		}
-//		
-//        lineChart.getData().add(models.basicLogisticGrowth(cow, timeRange));
-//        lineChart.getData().add(models.basicLogisticGrowth(horse, timeRange));
-//        lineChart.getData().add(models.basicLogisticGrowth(deer, timeRange));
-//        
         
         //Working on this
 		

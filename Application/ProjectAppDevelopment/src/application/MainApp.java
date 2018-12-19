@@ -61,7 +61,6 @@ public class MainApp extends Application {
 	
 	public void initStatisticsView() {
 		//Init species
-//		ModelFactory.setModel("LOG");
 		try {
 			FXMLLoader loader = new FXMLLoader();
 			loader.setLocation(MainApp.class.getResource("../view/StatisticsView.fxml"));

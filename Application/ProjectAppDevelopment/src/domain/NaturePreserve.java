@@ -1,9 +1,7 @@
 package domain;
 
-import java.time.Year;
 import java.util.Iterator;
 import java.util.Set;
-import java.util.TreeSet;
 
 import model.IModel;
 import model.ModelFactory;
@@ -13,8 +11,6 @@ public class NaturePreserve {
 	private int time;
 	private static IModel model;
 	private Set<LargeHerbivore> differentSpecies;
-	private TreeSet<Integer> speciesPopulations;
-	
 	private static NaturePreserve internalObject = null;
 	
 	public static NaturePreserve instance(Set<LargeHerbivore> differentSpecies) {

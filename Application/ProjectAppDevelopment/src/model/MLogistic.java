@@ -1,7 +1,5 @@
 package model;
 
-import java.time.Year;
-
 import domain.NaturePreserve;
 import species.LargeHerbivore;
 
