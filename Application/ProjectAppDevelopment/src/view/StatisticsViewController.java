@@ -61,6 +61,8 @@ public class StatisticsViewController {
 		if(!numYears.getText().equals("")) {
 		timeRange = Integer.parseInt(numYears.getText().toString());
 		}
+		
+		//Add this to a different thread that updates gui as it works
 		Iterator<LargeHerbivore> it = preserve.getDifferentSpecies().iterator();
 		while(it.hasNext()) {
 			LargeHerbivore species = it.next();
@@ -72,7 +74,6 @@ public class StatisticsViewController {
 			}
 			lineChart.getData().add(series);
 		}
-
 	}
 
 	public void setMainApp(MainApp mainApp) {

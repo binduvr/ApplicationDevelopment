@@ -44,12 +44,10 @@ public class MainApp extends Application {
 	
 	public void initRootLayout() {
 		try {
-	        // Load root layout from fxml file.
 			FXMLLoader loader = new FXMLLoader();
 			loader.setLocation(MainApp.class.getResource("../view/RootLayout.fxml"));
 			rootLayout = (BorderPane) loader.load();
 			
-            // Show the scene containing the root layout.
 			Scene scene = new Scene(rootLayout);
 			primaryStage.setScene(scene);
 			primaryStage.show();
@@ -60,7 +58,6 @@ public class MainApp extends Application {
 	}
 	
 	public void initStatisticsView() {
-		//Init species
 		try {
 			FXMLLoader loader = new FXMLLoader();
 			loader.setLocation(MainApp.class.getResource("../view/StatisticsView.fxml"));
