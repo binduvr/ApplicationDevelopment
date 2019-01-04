@@ -4,7 +4,6 @@ import domain.NaturePreserve;
 import species.LargeHerbivore;
 
 public class MExponential implements IModel {
-	
 	//Basic exponential growth model
 	public double basicExponentialCalc(int N0, double r, int t) {
 		return N0*(Math.exp(r*t));

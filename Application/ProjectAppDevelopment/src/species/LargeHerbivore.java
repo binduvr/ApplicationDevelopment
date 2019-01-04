@@ -2,8 +2,6 @@ package species;
 
 import java.io.File;
 import java.io.IOException;
-import java.time.LocalDate;
-import java.time.Year;
 import java.util.List;
 
 import org.apache.commons.io.FileUtils;
@@ -12,13 +10,12 @@ public abstract class LargeHerbivore implements Comparable<LargeHerbivore> {
 	
 	private String name;
 	private int initialPop;
-	private Year yearIntroduced;
 	private int carryingCap;
-	private double birthRate;
-	private double deathRate;
 	private double growthRate;
 	private File file;
 	
+	
+	//set the competition values for the animals in setting
 	private int currentPopulation;
 	
 	public LargeHerbivore() {
@@ -27,18 +24,12 @@ public abstract class LargeHerbivore implements Comparable<LargeHerbivore> {
 		loadSettings();
 	}
 	
-	public LargeHerbivore(int initialPopulation, int carryingCapacity, double birthRate, double deathRate) {
+	public LargeHerbivore(int initialPopulation, int carryingCapacity, double growthRate) {
 		super();
 		this.initialPop = initialPopulation;
 		this.carryingCap = carryingCapacity;
-		this.birthRate = birthRate;
-		this.deathRate = deathRate;
-		calcGrowth();
+		this.growthRate = growthRate;
 		saveSettings();
-	}
-	
-	public void calcGrowth() {
-		this.growthRate = birthRate-deathRate;
 	}
 	
 	public abstract void reset();
@@ -56,31 +47,19 @@ public abstract class LargeHerbivore implements Comparable<LargeHerbivore> {
 		text = lines.get(1).substring(lines.get(1).indexOf(":")+2).trim();
 		initialPop = Integer.parseInt(text);
 		text = lines.get(2).substring(lines.get(2).indexOf(":")+2).trim();
-		yearIntroduced = Year.parse(text);
-		text = lines.get(3).substring(lines.get(3).indexOf(":")+2).trim();
 		carryingCap = Integer.parseInt(text);
-		text = lines.get(4).substring(lines.get(4).indexOf(":")+2).trim();
-		birthRate = Double.parseDouble(text);
-		text = lines.get(5).substring(lines.get(5).indexOf(":")+2).trim();
-		deathRate = Double.parseDouble(text);
-		growthRate = birthRate-deathRate;
+		text = lines.get(3).substring(lines.get(3).indexOf(":")+2).trim();
+		growthRate = Double.parseDouble(text);
 	}
 	
 	//Only to be used to initially create files
 	public void saveSettings() {
-		calcGrowth();
 		try {
 			String text = "Species: " + name;
 			FileUtils.writeStringToFile(file, text+"\n","UTF-8", false);
 			text = "Intitial Population: " + String.valueOf(initialPop);
 			FileUtils.writeStringToFile(file, text+"\n","UTF-8", true);
-			text = "Year introduced: " + String.valueOf(yearIntroduced);
-			FileUtils.writeStringToFile(file, text+"\n","UTF-8", true);
 			text = "Carrying Capacity: " + String.valueOf(carryingCap);
-			FileUtils.writeStringToFile(file, text+"\n","UTF-8", true);
-			text = "Instantanious Birthrate: " + String.valueOf(birthRate);
-			FileUtils.writeStringToFile(file, text+"\n","UTF-8", true);
-			text = "Instantanious Deathrate: " + String.valueOf(deathRate);
 			FileUtils.writeStringToFile(file, text+"\n","UTF-8", true);
 			text = "Growth Rate: " + String.valueOf(growthRate);
 			FileUtils.writeStringToFile(file, text+"\n","UTF-8", true);
@@ -116,17 +95,6 @@ public abstract class LargeHerbivore implements Comparable<LargeHerbivore> {
 		this.initialPop = initialPop;
 //		saveSettings();
 	}
-	public Year getYearIntroduced() {
-		return yearIntroduced;
-	}
-//	public void setYearIntroduced(Year yearIntroduced) {
-//		this.yearIntroduced = yearIntroduced;
-////		saveSettings();
-//	}
-	public void setYearIntroduced(String yearIntroduced) {
-		this.yearIntroduced = Year.parse(yearIntroduced);
-//		saveSettings();
-	}
 	
 	public int getCarryingCap() {
 		return carryingCap;
@@ -136,29 +104,15 @@ public abstract class LargeHerbivore implements Comparable<LargeHerbivore> {
 		this.carryingCap = carryingCap;
 //		saveSettings();
 	}
-
-	public double getBirthRate() {
-		return birthRate;
-	}
-
-	public void setBirthRate(double birthRate) {
-		this.birthRate = birthRate;
-		calcGrowth();
-//		saveSettings();
-	}
-
-	public double getDeathRate() {
-		return deathRate;
-	}
-
-	public void setDeathRate(double deathRate) {
-		this.deathRate = deathRate;
-		calcGrowth();
-//		saveSettings();
-	}
+	
 	public double getGrowthRate() {
 		return growthRate;
 	}
+	
+	public void setGrowthRate(double growthRate) {
+		this.growthRate = growthRate;
+	}
+
 	@Override
 	public boolean equals(Object obj) {
 		if (this == obj)

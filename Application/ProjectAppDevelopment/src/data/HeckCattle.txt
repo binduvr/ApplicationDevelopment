@@ -1,7 +1,4 @@
 Species: Heck Cattle
 Intitial Population: 30
-Year introduced: 1983
 Carrying Capacity: 400
-Instantanious Birthrate: 1.33
-Instantanious Deathrate: 1.0
-Growth Rate: 0.33000000000000007
+Growth Rate: 0.124
