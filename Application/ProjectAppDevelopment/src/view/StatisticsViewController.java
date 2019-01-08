@@ -33,7 +33,7 @@ public class StatisticsViewController {
     private ObservableList<String> options;
 	@FXML
 	private void initialize() {
-		options = FXCollections.observableArrayList("Exponential Growth","Logistic Growth");
+		options = FXCollections.observableArrayList("Exponential Growth","Logistic Growth", "Growth w/ Competition");
 		timeRange = 20;
 		numYears.setText(Integer.toString(timeRange));
 		modelChoice.setItems(options);
@@ -52,8 +52,10 @@ public class StatisticsViewController {
 		//Doing this because switch isnt working
 		if(modelChoice.getSelectionModel().getSelectedItem()=="Exponential Growth") {
 			ModelFactory.setModel("EXP");
-		} else {
+		} else if(modelChoice.getSelectionModel().getSelectedItem()=="Logistic Growth"){
 			ModelFactory.setModel("LOG");
+		} else {
+			ModelFactory.setModel("LOT");
 		}
         
         //Working on this
