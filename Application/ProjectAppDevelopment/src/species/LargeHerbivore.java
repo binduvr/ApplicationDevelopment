@@ -6,6 +6,11 @@ import java.util.List;
 
 import org.apache.commons.io.FileUtils;
 
+import javafx.beans.property.IntegerProperty;
+import javafx.beans.property.SimpleIntegerProperty;
+import javafx.beans.property.SimpleStringProperty;
+import javafx.beans.property.StringProperty;
+
 public abstract class LargeHerbivore implements Comparable<LargeHerbivore> {
 	
 	private String name;
@@ -76,6 +81,12 @@ public abstract class LargeHerbivore implements Comparable<LargeHerbivore> {
 	public void setCurrentPopulation(int currentPopulation) {
 		this.currentPopulation = currentPopulation;
 	}
+	//Helps with GUI
+	public IntegerProperty currentPopulationProperty() {
+		IntegerProperty popProperty = new SimpleIntegerProperty();
+		popProperty.set(currentPopulation);
+		return popProperty;
+	}
 	public File getFile() {
 		return file;
 	}
@@ -87,6 +98,12 @@ public abstract class LargeHerbivore implements Comparable<LargeHerbivore> {
 	}
 	public void setName(String name) {
 		this.name = name;
+	}
+	//Helps with GUI
+	public StringProperty nameProperty() {
+		StringProperty nameProperty = new SimpleStringProperty();
+		nameProperty.set(name);
+		return nameProperty;
 	}
 	public int getInitialPop() {
 		return initialPop;

@@ -6,6 +6,8 @@
 <?import javafx.scene.control.ButtonBar?>
 <?import javafx.scene.control.ComboBox?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 
@@ -19,14 +21,25 @@
           <NumberAxis fx:id="yAxis" label="Population" side="LEFT" />
         </yAxis>
       </LineChart>
-      <Label layoutX="14.0" layoutY="31.0" text="Years:" />
-      <TextField fx:id="numYears" layoutX="97.0" layoutY="27.0" />
-      <ButtonBar layoutX="97.0" layoutY="380.0" prefHeight="40.0" prefWidth="200.0">
+      <Label layoutX="23.0" layoutY="304.0" text="Specific Time:" />
+      <TextField fx:id="selectedYearField" layoutX="107.0" layoutY="300.0" prefHeight="25.0" prefWidth="149.0" />
+      <Label layoutX="23.0" layoutY="339.0" text="Time Range:" />
+      <TextField fx:id="numYears" layoutX="106.0" layoutY="335.0" />
+      <Label layoutX="23.0" layoutY="375.0" text="Model:" />
+      <ComboBox fx:id="modelChoice" layoutX="106.0" layoutY="371.0" prefWidth="150.0" promptText="Model" />
+      <ButtonBar layoutX="54.0" layoutY="400.0" prefHeight="40.0" prefWidth="200.0">
         <buttons>
-          <Button mnemonicParsing="false" onAction="#handleShowGraph" text="Ok" />
+          <Button mnemonicParsing="false" onAction="#handleOk" text="Ok" />
         </buttons>
       </ButtonBar>
-      <Label layoutX="14.0" layoutY="67.0" text="Model:" />
-      <ComboBox fx:id="modelChoice" layoutX="97.0" layoutY="63.0" prefWidth="150.0" promptText="Model" />
+      <TableView fx:id="populationTable" layoutX="23.0" layoutY="14.0" prefHeight="129.0" prefWidth="251.0">
+        <columns>
+          <TableColumn fx:id="speciesColumn" prefWidth="75.0" text="Species" />
+          <TableColumn fx:id="popColumn" prefWidth="75.0" text="Population" />
+        </columns>
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
+      </TableView>
    </children>
 </AnchorPane>
