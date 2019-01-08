@@ -10,6 +10,8 @@ public class MLotkaVolterra implements IModel {
 		return K/(1+(((K-N0)/N0)*Math.exp((-r)*t)));
 	}
 	
+	
+	//alpha is population of wanted animal/ population of competing animal
 	@Override
 	public LargeHerbivore getState(LargeHerbivore species, NaturePreserve preserve) {
 		int time = preserve.getTime();
