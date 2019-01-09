@@ -2,6 +2,7 @@ package domain;
 
 import java.util.Iterator;
 import java.util.Set;
+import java.util.TreeSet;
 
 import model.IModel;
 import model.ModelFactory;
@@ -13,18 +14,18 @@ public class NaturePreserve {
 	private Set<LargeHerbivore> differentSpecies;
 	private static NaturePreserve internalObject = null;
 	
-	public static NaturePreserve instance(Set<LargeHerbivore> differentSpecies) {
+	public static NaturePreserve instance() {
 		if(internalObject==null) {
-			internalObject = new NaturePreserve(differentSpecies);
+			internalObject = new NaturePreserve();
 		}
 		return internalObject;
 	}
 	
-	private NaturePreserve(Set<LargeHerbivore> differentSpecies) {
+	private NaturePreserve() {
 		super();
 		this.time = 0;
 		NaturePreserve.model = ModelFactory.getModel();
-		this.differentSpecies = differentSpecies;
+		this.differentSpecies = new TreeSet<LargeHerbivore>();
 	}
 	
 	public NaturePreserve getState(int time) {
@@ -39,6 +40,10 @@ public class NaturePreserve {
 	
 	public void addSpecies(LargeHerbivore species) {
 		differentSpecies.add(species);
+	}
+	
+	public void addAllSpecies(Set<LargeHerbivore> species) {
+		differentSpecies.addAll(species);
 	}
 	
 	public LargeHerbivore getSpecies(String name) {

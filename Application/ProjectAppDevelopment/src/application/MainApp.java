@@ -39,7 +39,7 @@ public class MainApp extends Application {
 		set.add(deer);
 		set.add(horse);
 		set.add(cow);
-		NaturePreserve.instance(set);
+		NaturePreserve.instance().addAllSpecies(set);
 	}
 	
 	public void initRootLayout() {

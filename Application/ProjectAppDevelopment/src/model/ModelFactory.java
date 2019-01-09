@@ -12,8 +12,9 @@ public class ModelFactory {
 	
 	public static void setModel(String model) {
 		switch(model) {
-		case "LOG": selectedModel = new MLogistic(); break;
-		case "LOT": selectedModel = new MLotkaVolterra(); break;
+		case "Logistic Growth": selectedModel = new MLogistic(); break;
+		//LotkaVolterra model class not yet implemented.
+		case "Growth w/ Competition": selectedModel = new MLogistic(); break;
 		default: selectedModel = new MExponential();
 		}
 		NaturePreserve.setModel(selectedModel);

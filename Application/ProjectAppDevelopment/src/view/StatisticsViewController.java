@@ -6,8 +6,6 @@ import java.util.Observer;
 
 import application.MainApp;
 import domain.NaturePreserve;
-import javafx.beans.value.ChangeListener;
-import javafx.beans.value.ObservableValue;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
@@ -24,6 +22,7 @@ import model.ModelFactory;
 import species.LargeHerbivore;
 import util.ValidateNumericTextfield;
 
+@SuppressWarnings("deprecation")
 public class StatisticsViewController implements Observer {
 	private MainApp mainApp;
 
@@ -47,6 +46,7 @@ public class StatisticsViewController implements Observer {
 	@FXML
 	private NumberAxis yAxis;
 
+	private NaturePreserve preserve;
 	private int timeRange;
 	private int selectedYear;
 	private static ObservableList<LargeHerbivore> speciesList;
@@ -54,6 +54,7 @@ public class StatisticsViewController implements Observer {
 
 	@FXML
 	private void initialize() {
+		preserve = NaturePreserve.instance();
 		speciesList = FXCollections.observableArrayList();
 		options = FXCollections.observableArrayList("Exponential Growth","Logistic Growth", "Growth w/ Competition");
 		timeRange = 20;
@@ -68,32 +69,33 @@ public class StatisticsViewController implements Observer {
 		ValidateNumericTextfield.validate(selectedYearField);
 		ValidateNumericTextfield.validate(numYears);
 		
+		//Adds selection listener so it shows which time is clicked on the graph
+		//TODO Allow drag + click to work
+		lineChart.setOnMousePressed((MouseEvent event) -> {
+			Point2D mouseSceneCoords = new Point2D(event.getSceneX(), event.getSceneY());
+			int x = (int) Math.round(xAxis.sceneToLocal(mouseSceneCoords).getX());
+			selectedYearField.setText(Integer.toString(xAxis.getValueForDisplay(x).intValue()));
+			showSpecies();
+		});
 		handleShowGraph();
 		showSpecies();
 	}
 
 	public void handleShowGraph() {
 		lineChart.getData().clear();
-		NaturePreserve preserve = NaturePreserve.instance(null);
 
-		// Doing this because switch isnt working
-		if (modelChoice.getSelectionModel().getSelectedItem() == "Exponential Growth") {
-			ModelFactory.setModel("EXP");
-		} else if (modelChoice.getSelectionModel().getSelectedItem() == "Logistic Growth") {
-			ModelFactory.setModel("LOG");
-		} else {
-			ModelFactory.setModel("LOT");
-		}
-
-		// Working on this
-
+		//TODO get from settings file
 		if (!numYears.getText().equals("")) {
 			timeRange = Integer.parseInt(numYears.getText().toString());
 		} else {
 			numYears.setText("20");
 		}
 
-		// Add this to a different thread that updates gui as it works
+		
+		//Sets selected model
+		ModelFactory.setModel(modelChoice.getSelectionModel().getSelectedItem());
+		
+		//TODO Add this to a different thread that updates gui as it works
 		Iterator<LargeHerbivore> it = preserve.getDifferentSpecies().iterator();
 		while (it.hasNext()) {
 			LargeHerbivore species = it.next();
@@ -113,19 +115,12 @@ public class StatisticsViewController implements Observer {
 		} else {
 			selectedYearField.setText("0");
 		}
-		NaturePreserve.instance(null).getState(selectedYear);
+		preserve.getState(selectedYear);
 		speciesColumn.setCellValueFactory(cellData -> cellData.getValue().nameProperty());
 		popColumn.setCellValueFactory(cellData -> cellData.getValue().currentPopulationProperty());
 		speciesList.clear();
 
-		// Adds selection listener so it shows which time is selected
-		lineChart.setOnMousePressed((MouseEvent event) -> {
-			Point2D mouseSceneCoords = new Point2D(event.getSceneX(), event.getSceneY());
-			int x = (int) Math.round(xAxis.sceneToLocal(mouseSceneCoords).getX());
-			selectedYearField.setText(Integer.toString(xAxis.getValueForDisplay(x).intValue()));
-			showSpecies();
-		});
-		speciesList.addAll(NaturePreserve.instance(null).getDifferentSpecies());
+		speciesList.addAll(preserve.getDifferentSpecies());
 		populationTable.setItems(speciesList);
 	}
 
