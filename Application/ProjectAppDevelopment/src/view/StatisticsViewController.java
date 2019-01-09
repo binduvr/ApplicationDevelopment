@@ -22,6 +22,7 @@ import javafx.scene.control.TextField;
 import javafx.scene.input.MouseEvent;
 import model.ModelFactory;
 import species.LargeHerbivore;
+import util.ValidateNumericTextfield;
 
 public class StatisticsViewController implements Observer {
 	private MainApp mainApp;
@@ -64,8 +65,8 @@ public class StatisticsViewController implements Observer {
 		lineChart.setTitle("Animal Populations");
 		lineChart.setCreateSymbols(false);
 		
-		selectedYearField.textProperty().addListener(ensureInt());
-		numYears.textProperty().addListener(ensureInt());
+		ValidateNumericTextfield.validate(selectedYearField);
+		ValidateNumericTextfield.validate(numYears);
 		
 		handleShowGraph();
 		showSpecies();
@@ -122,7 +123,7 @@ public class StatisticsViewController implements Observer {
 			Point2D mouseSceneCoords = new Point2D(event.getSceneX(), event.getSceneY());
 			int x = (int) Math.round(xAxis.sceneToLocal(mouseSceneCoords).getX());
 			selectedYearField.setText(Integer.toString(xAxis.getValueForDisplay(x).intValue()));
-
+			showSpecies();
 		});
 		speciesList.addAll(NaturePreserve.instance(null).getDifferentSpecies());
 		populationTable.setItems(speciesList);
@@ -132,19 +133,6 @@ public class StatisticsViewController implements Observer {
 	public void handleOk() {
 		handleShowGraph();
 		showSpecies();
-	}
-
-	public ChangeListener<String> ensureInt() {
-		return new ChangeListener<String>() {
-		    @Override
-		    public void changed(ObservableValue<? extends String> observable, String oldValue, 
-		        String newValue) {
-		        if (!newValue.matches("\\d*")) {
-		        	selectedYearField.setText(newValue.replaceAll("[^\\d]", ""));
-		        	numYears.setText(newValue.replaceAll("[^\\d]", ""));
-		        }
-		    }
-		};
 	}
 
 	public void setMainApp(MainApp mainApp) {
