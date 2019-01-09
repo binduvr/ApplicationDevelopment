@@ -6,8 +6,9 @@ import species.LargeHerbivore;
 public class MLotkaVolterra implements IModel {
 	
 	//Basic logistic growth model with carrying capacity kept in mind
-	public double loktaVolterraCalc(int N0, int K, double r, int t) {
-		return K/(1+(((K-N0)/N0)*Math.exp((-r)*t)));
+	public double loktaVolterraCalc(int n1, int K1, int r1, int N2, double a, int time) {
+		//not yet implemented
+		return 0;
 	}
 	
 	
@@ -15,7 +16,12 @@ public class MLotkaVolterra implements IModel {
 	@Override
 	public LargeHerbivore getState(LargeHerbivore species, NaturePreserve preserve) {
 		int time = preserve.getTime();
-		species.setCurrentPopulation((int) loktaVolterraCalc(species.getInitialPop(), species.getCarryingCap(), species.getGrowthRate(), time));
+		if(species.isCompeting()) {
+			double a = species.getCurrentPopulation()/(preserve.getSpecies(species.getCompetitor().getName()).getCurrentPopulation());
+			
+		}
+		/// fix
+		species.setCurrentPopulation(1);
 		return species;
 	}
 

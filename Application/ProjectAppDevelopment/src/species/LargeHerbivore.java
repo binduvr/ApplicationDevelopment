@@ -17,6 +17,8 @@ public abstract class LargeHerbivore implements Comparable<LargeHerbivore> {
 	private int initialPop;
 	private int carryingCap;
 	private double growthRate;
+	private boolean competing;
+	private LargeHerbivore competitor;
 	private File file;
 	
 	
@@ -34,9 +36,18 @@ public abstract class LargeHerbivore implements Comparable<LargeHerbivore> {
 		this.initialPop = initialPopulation;
 		this.carryingCap = carryingCapacity;
 		this.growthRate = growthRate;
+		this.competing = false;
 		saveSettings();
 	}
-	
+	public LargeHerbivore(int initialPopulation, int carryingCapacity, double growthRate, LargeHerbivore competitor) {
+		super();
+		this.initialPop = initialPopulation;
+		this.carryingCap = carryingCapacity;
+		this.growthRate = growthRate;
+		this.competitor = competitor;
+		this.competing = false;
+		saveSettings();
+	}
 	public abstract void reset();
 	
 	public void loadSettings() {
@@ -129,7 +140,23 @@ public abstract class LargeHerbivore implements Comparable<LargeHerbivore> {
 	public void setGrowthRate(double growthRate) {
 		this.growthRate = growthRate;
 	}
-
+	
+	public LargeHerbivore getCompetitor() {
+		return competitor;
+	}
+	
+	public void setCompetitor(LargeHerbivore comp) {
+		this.competitor = comp;
+	}
+	
+	public boolean isCompeting() {
+		return competing;
+	}
+	
+	public void setCompeting(boolean set) {
+		this.competing = set;
+	}
+	
 	@Override
 	public boolean equals(Object obj) {
 		if (this == obj)

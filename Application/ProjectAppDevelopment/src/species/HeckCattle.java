@@ -6,8 +6,8 @@ public class HeckCattle extends LargeHerbivore {
 	public HeckCattle() {
 		super();
 	}
-	public HeckCattle(int initialPopulation, int carryingCapacity, double growthRate) {
-		super(initialPopulation, carryingCapacity, growthRate);
+	public HeckCattle(int initialPopulation, int carryingCapacity, double growthRate, LargeHerbivore competitor) {
+		super(initialPopulation, carryingCapacity, growthRate, competitor);
 	}
 	
 	@Override
