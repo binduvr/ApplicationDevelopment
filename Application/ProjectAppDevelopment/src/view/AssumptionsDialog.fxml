@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="261.0" prefWidth="380.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutX="14.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The following assumptions are made when making calculations:" />
+      <Text layoutX="30.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1. The population is closed. No animals are leaving the area and no new animals are coming in." wrappingWidth="323.13671875" />
+      <Text layoutX="30.0" layoutY="100.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2. There is an unlimited supply of food and resources." wrappingWidth="323.13671875" />
+      <Text layoutX="30.0" layoutY="140.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3. There is no genetic structure of the animals." wrappingWidth="323.13671875" />
+      <Text layoutX="30.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4. There is no age/size structure between the animals." wrappingWidth="323.13671875" />
+      <Text layoutX="30.0" layoutY="220.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5. The growth is continuous with no time lag." wrappingWidth="323.13671875" />
+   </children>
+</AnchorPane>
