@@ -13,7 +13,8 @@ public class KonikHorse extends LargeHerbivore {
 	
 	@Override
 	public void reset() {
-		super.setFile(new File("src/data/KonikHorse.txt"));
+		ClassLoader classLoader = getClass().getClassLoader();
+		super.setFile(new File(classLoader.getResource("data/KonikHorse.txt").getFile()));
 		super.setName("Konik Horse");
 		super.setInitialPop(20);
 		super.setCarryingCap(1200);

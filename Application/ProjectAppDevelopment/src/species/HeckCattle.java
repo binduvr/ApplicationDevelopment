@@ -12,7 +12,8 @@ public class HeckCattle extends LargeHerbivore {
 	
 	@Override
 	public void reset() {
-		super.setFile(new File("src/data/HeckCattle.txt"));
+		ClassLoader classLoader = getClass().getClassLoader();
+		super.setFile(new File(classLoader.getResource("data/HeckCattle.txt").getFile()));
 		super.setName("Heck Cattle");
 		super.setInitialPop(30);
 		super.setCarryingCap(400);

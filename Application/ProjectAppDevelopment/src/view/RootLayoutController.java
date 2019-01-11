@@ -16,6 +16,22 @@ public class RootLayoutController {
 		System.exit(0);
 	}
 	@FXML
+	private void handleShowHowTo() {
+		try {
+			FXMLLoader loader = new FXMLLoader(MainApp.class.getResource("../view/HowToUseDialog.fxml"));
+			AnchorPane page = (AnchorPane) loader.load();
+			Stage dialogStage = new Stage();
+			dialogStage.setTitle("Instructions");
+			dialogStage.initModality(Modality.WINDOW_MODAL);
+			dialogStage.initOwner(MainApp.getPrimaryStage());
+			Scene scene = new Scene(page);
+			dialogStage.setScene(scene);
+			dialogStage.showAndWait();
+		} catch(IOException e) {
+			e.printStackTrace();
+		}
+	}
+	@FXML
 	private void handleShowAssumptions() {
 		try {
 			FXMLLoader loader = new FXMLLoader(MainApp.class.getResource("../view/AssumptionsDialog.fxml"));

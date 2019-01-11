@@ -22,7 +22,7 @@ public abstract class LargeHerbivore implements Comparable<LargeHerbivore> {
 	private File file;
 	
 	
-	//set the competition values for the animals in setting
+	//set the competition values for the animals in settings
 	private int currentPopulation;
 	
 	public LargeHerbivore() {

@@ -13,7 +13,8 @@ public class RedDeer extends LargeHerbivore {
 	
 	@Override
 	public void reset() {
-		super.setFile(new File("src/data/RedDeer.txt"));
+		ClassLoader classLoader = getClass().getClassLoader();
+		super.setFile(new File(classLoader.getResource("data/RedDeer.txt").getFile()));
 		super.setName("Red Deer");
 		super.setInitialPop(45);
 		super.setCarryingCap(3100);

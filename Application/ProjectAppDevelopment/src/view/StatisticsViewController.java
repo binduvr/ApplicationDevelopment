@@ -22,7 +22,6 @@ import model.ModelFactory;
 import species.LargeHerbivore;
 import util.ValidateNumericTextfield;
 
-@SuppressWarnings("deprecation")
 public class StatisticsViewController implements Observer {
 	private MainApp mainApp;
 
@@ -63,7 +62,7 @@ public class StatisticsViewController implements Observer {
 		selectedYearField.setText(Integer.toString(selectedYear));
 		modelChoice.setItems(options);
 		modelChoice.getSelectionModel().selectFirst();
-		lineChart.setTitle("Animal Populations");
+		lineChart.setTitle("Animal Population Growth");
 		lineChart.setCreateSymbols(false);
 		
 		ValidateNumericTextfield.validate(selectedYearField);
