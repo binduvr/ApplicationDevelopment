@@ -1,0 +1,4 @@
+Species: Konik Horse
+Intitial Population: 20
+Carrying Capacity: 1200
+Growth Rate: 0.224
