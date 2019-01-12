@@ -84,7 +84,7 @@ public class StatisticsViewController implements Observer {
 		lineChart.getData().clear();
 
 		//TODO get from settings file
-		if (!numYears.getText().equals("")) {
+		if (!numYears.getText().equals("") && Integer.parseInt(numYears.getText().toString())<300) {
 			timeRange = Integer.parseInt(numYears.getText().toString());
 		} else {
 			numYears.setText("20");
@@ -109,7 +109,7 @@ public class StatisticsViewController implements Observer {
 	}
 
 	public void showSpecies() {
-		if(!selectedYearField.getText().equals("")) {
+		if(!selectedYearField.getText().equals("") && Integer.parseInt(selectedYearField.getText())<300) {
 			selectedYear = Integer.parseInt(selectedYearField.getText());
 		} else {
 			selectedYearField.setText("0");
