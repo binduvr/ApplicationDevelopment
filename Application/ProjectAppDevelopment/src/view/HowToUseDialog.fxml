@@ -6,6 +6,6 @@
 <AnchorPane prefHeight="223.0" prefWidth="380.0" stylesheets="@DefaultTheme.css" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <Text layoutX="14.0" layoutY="19.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="title" text="How to use this appliction" />
-      <Text layoutX="28.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1. Enter a desired time range&#10;&#10;2. Select a model to use when calculations are made&#10;&#10;3. Select a specific time stamp to view the statistics of&#10;&#10;4. Press Ok to view the statistics of each animal in the graph&#10;&#10;5. Click the graph at different time stamps to view the statistics of that time period." wrappingWidth="323.13671875" />
+      <Text layoutX="28.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1. Enter a desired time range&#10;&#10;2. Select a model to use when calculations are made&#10;&#10;3. Select a specific time stamp to view the statistics of&#10;&#10;4. Press Ok to view the statistics of each animal in the graph&#10;&#10;5. Click the graph at different time stamps to view the statistics of that time period and drag to fine tune." wrappingWidth="323.13671875" />
    </children>
 </AnchorPane>

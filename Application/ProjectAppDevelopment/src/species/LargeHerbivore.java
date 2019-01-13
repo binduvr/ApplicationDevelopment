@@ -21,8 +21,6 @@ public abstract class LargeHerbivore implements Comparable<LargeHerbivore> {
 	private LargeHerbivore competitor;
 	private File file;
 	
-	
-	//set the competition values for the animals in settings
 	private int currentPopulation;
 	
 	public LargeHerbivore() {
@@ -79,7 +77,6 @@ public abstract class LargeHerbivore implements Comparable<LargeHerbivore> {
 			FileUtils.writeStringToFile(file, text+"\n","UTF-8", true);
 			text = "Growth Rate: " + String.valueOf(growthRate);
 			FileUtils.writeStringToFile(file, text+"\n","UTF-8", true);
-			
 		}
 		catch (IOException e) {
 			e.printStackTrace();

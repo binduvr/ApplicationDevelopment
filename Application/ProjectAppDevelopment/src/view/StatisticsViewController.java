@@ -6,6 +6,7 @@ import java.util.Observer;
 
 import application.MainApp;
 import domain.NaturePreserve;
+import domain.Settings;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
@@ -45,6 +46,7 @@ public class StatisticsViewController implements Observer {
 	@FXML
 	private NumberAxis yAxis;
 
+	private Settings settings;
 	private NaturePreserve preserve;
 	private int timeRange;
 	private int selectedYear;
@@ -53,13 +55,14 @@ public class StatisticsViewController implements Observer {
 
 	@FXML
 	private void initialize() {
+		settings = Settings.instance();
 		preserve = NaturePreserve.instance();
 		speciesList = FXCollections.observableArrayList();
 		options = FXCollections.observableArrayList("Exponential Growth","Logistic Growth", "Growth w/ Competition");
 		timeRange = 20;
 		selectedYear = 0;
-		numYears.setText(Integer.toString(timeRange));
-		selectedYearField.setText(Integer.toString(selectedYear));
+		numYears.setText(Integer.toString(settings.getDefaultTimeRange()));
+		selectedYearField.setText(Integer.toString(settings.getDefaultTimeView()));
 		modelChoice.setItems(options);
 		modelChoice.getSelectionModel().selectFirst();
 		lineChart.setTitle("Animal Population Growth");
@@ -68,9 +71,14 @@ public class StatisticsViewController implements Observer {
 		ValidateNumericTextfield.validate(selectedYearField);
 		ValidateNumericTextfield.validate(numYears);
 		
-		//Adds selection listener so it shows which time is clicked on the graph
-		//TODO Allow drag + click to work
+		//Adds selection listener so it shows which time is clicked on the graph (sloppy)
 		lineChart.setOnMousePressed((MouseEvent event) -> {
+			Point2D mouseSceneCoords = new Point2D(event.getSceneX(), event.getSceneY());
+			int x = (int) Math.round(xAxis.sceneToLocal(mouseSceneCoords).getX());
+			selectedYearField.setText(Integer.toString(xAxis.getValueForDisplay(x).intValue()));
+			showSpecies();
+		});
+		lineChart.setOnMouseDragged((MouseEvent event) -> {
 			Point2D mouseSceneCoords = new Point2D(event.getSceneX(), event.getSceneY());
 			int x = (int) Math.round(xAxis.sceneToLocal(mouseSceneCoords).getX());
 			selectedYearField.setText(Integer.toString(xAxis.getValueForDisplay(x).intValue()));
@@ -82,12 +90,10 @@ public class StatisticsViewController implements Observer {
 
 	public void handleShowGraph() {
 		lineChart.getData().clear();
-
-		//TODO get from settings file
 		if (!numYears.getText().equals("") && Integer.parseInt(numYears.getText().toString())<300) {
 			timeRange = Integer.parseInt(numYears.getText().toString());
 		} else {
-			numYears.setText("20");
+			numYears.setText(Integer.toString(settings.getDefaultTimeRange()));
 		}
 
 		
@@ -112,7 +118,7 @@ public class StatisticsViewController implements Observer {
 		if(!selectedYearField.getText().equals("") && Integer.parseInt(selectedYearField.getText())<300) {
 			selectedYear = Integer.parseInt(selectedYearField.getText());
 		} else {
-			selectedYearField.setText("0");
+			selectedYearField.setText(Integer.toString(settings.getDefaultTimeView()));
 		}
 		preserve.getState(selectedYear);
 		speciesColumn.setCellValueFactory(cellData -> cellData.getValue().nameProperty());

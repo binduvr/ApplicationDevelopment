@@ -5,6 +5,7 @@ import javafx.beans.value.ObservableValue;
 import javafx.scene.control.TextField;
 
 public class ValidateNumericTextfield {
+	private ValidateNumericTextfield() {}
 	public static void validate(TextField field) {
 		field.textProperty().addListener(new ChangeListener<String>() {
 			@Override
