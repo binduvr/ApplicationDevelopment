@@ -14,6 +14,7 @@ import species.HeckCattle;
 import species.KonikHorse;
 import species.LargeHerbivore;
 import species.RedDeer;
+import view.RootLayoutController;
 import view.StatisticsViewController;
 
 public class MainApp extends Application {
@@ -45,7 +46,7 @@ public class MainApp extends Application {
 	public void initRootLayout() {
 		try {
 			FXMLLoader loader = new FXMLLoader();
-			loader.setLocation(MainApp.class.getResource("../view/RootLayout.fxml"));
+			loader.setLocation(RootLayoutController.class.getResource("RootLayout.fxml"));
 			rootLayout = (BorderPane) loader.load();
 			
 			Scene scene = new Scene(rootLayout);
@@ -62,7 +63,7 @@ public class MainApp extends Application {
 	public void initStatisticsView() {
 		try {
 			FXMLLoader loader = new FXMLLoader();
-			loader.setLocation(MainApp.class.getResource("../view/StatisticsView.fxml"));
+			loader.setLocation(StatisticsViewController.class.getResource("StatisticsView.fxml"));
 			AnchorPane content = (AnchorPane) loader.load();
 			
 			rootLayout.setCenter(content);
