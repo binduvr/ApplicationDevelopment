@@ -1,0 +1,1163 @@
+commit 7ff46194d7df551649f68a306f292e461dcf4c11
+Author: binduvr <bindu.vanraak@gmail.com>
+Date:   Sun Jan 27 23:11:01 2019 +0100
+
+    Create Group 2 Reflections.pdf
+
+commit 91ae298ddc410d0f73966bcdbd4fc68d8c0cc9fe
+Author: jusmul <justmulder@gmail.com>
+Date:   Sun Jan 27 23:08:24 2019 +0100
+
+    Update Group 2 Reflections final.docx
+
+commit aa1da7aa58dde3911c58476deb3fd03253629f0e
+Author: binduvr <bindu.vanraak@gmail.com>
+Date:   Sun Jan 27 22:29:37 2019 +0100
+
+    Update Group 2 Reflections final.docx
+
+commit f85dab520315f48a58d31f4034db1a6f93c50e71
+Author: AssemAbdellaoui <38494377+AssemAbdellaoui@users.noreply.github.com>
+Date:   Sun Jan 27 22:26:34 2019 +0100
+
+    Add files via upload
+    
+    Reflections final
+
+commit 6bf06cf8543b51db0c313000a98952bcebc8584a
+Author: binduvr <bindu.vanraak@gmail.com>
+Date:   Sun Jan 27 15:03:44 2019 +0100
+
+    Update Group 2 Reflections.docx
+
+commit 8ffc242b451f71981b51b8414e2d55e176d8f9ae
+Author: binduvr <bindu.vanraak@gmail.com>
+Date:   Sun Jan 27 14:13:02 2019 +0100
+
+    Revert "Revert "Update Group 2 Reflections.docx""
+    
+    This reverts commit ae4e248e2abd66ff7c729ae8b9843bef14da6cbf.
+
+commit ae4e248e2abd66ff7c729ae8b9843bef14da6cbf
+Author: binduvr <bindu.vanraak@gmail.com>
+Date:   Sun Jan 27 14:12:54 2019 +0100
+
+    Revert "Update Group 2 Reflections.docx"
+    
+    This reverts commit 8cf841a5e6669d290d5e96b4a17d8e3ecfb9f61e.
+
+commit 8cf841a5e6669d290d5e96b4a17d8e3ecfb9f61e
+Author: binduvr <bindu.vanraak@gmail.com>
+Date:   Sun Jan 27 14:12:50 2019 +0100
+
+    Update Group 2 Reflections.docx
+
+commit b9e1297496dd069324aefac748b6f6309c747848
+Author: jusmul <justmulder@gmail.com>
+Date:   Tue Jan 22 16:37:10 2019 +0100
+
+    Update Group 2 Reflections.docx
+
+commit bce42160b41f04cc734ce112f82b4823b5f96a56
+Author: binduvr <bindu.vanraak@gmail.com>
+Date:   Mon Jan 21 21:39:11 2019 +0100
+
+    Create Project Application Development Final.pptx
+
+commit a502b8811654e19e0a8a85041181931f8e1e981f
+Author: binduvr <bindu.vanraak@gmail.com>
+Date:   Mon Jan 21 21:25:36 2019 +0100
+
+    Update Project Application Development 1.2.pptx
+
+commit 75b47971a6dbe2875be41edabc5952b357f02245
+Merge: 74cfd3a fd335be
+Author: binduvr <bindu.vanraak@gmail.com>
+Date:   Mon Jan 21 21:22:54 2019 +0100
+
+    MAde copy
+
+commit 74cfd3a3d14f4ba6342b11bba8275fb103ff0c2a
+Author: binduvr <bindu.vanraak@gmail.com>
+Date:   Mon Jan 21 21:21:18 2019 +0100
+
+    Update Project Application Development 1.1.pptx
+
+commit fd335be554cf6fd510d6cc37e3c0a6f74414e6db
+Merge: 0c1e2b2 9d34605
+Author: joud123 <45172196+joud123@users.noreply.github.com>
+Date:   Mon Jan 21 21:13:24 2019 +0100
+
+    Merge branch 'master' of https://github.com/binduvr/ApplicationDevelopment
+
+commit 0c1e2b2629485bb74a100cae594e674fd728d970
+Author: joud123 <45172196+joud123@users.noreply.github.com>
+Date:   Mon Jan 21 21:13:17 2019 +0100
+
+    Update Project Application Development 1.1.pptx
+
+commit 9d34605eedd95d75be48d9c6de2efb834a6aba99
+Author: binduvr <bindu.vanraak@gmail.com>
+Date:   Mon Jan 21 19:56:03 2019 +0100
+
+    Update Project Application Development 1.1.pptx
+
+commit 382e5e911ec635eaa62b187ffd939fef970630a9
+Author: binduvr <bindu.vanraak@gmail.com>
+Date:   Mon Jan 21 19:43:10 2019 +0100
+
+    Update Project Application Development 1.1.pptx
+
+commit b47d65ec1d715b361936666628f06b91792ee34b
+Author: AssemAbdellaoui <38494377+AssemAbdellaoui@users.noreply.github.com>
+Date:   Mon Jan 21 19:24:40 2019 +0100
+
+    Add files via upload
+    
+    Project Application Development 1.1
+
+commit 93b1ebc3db2b2d40b5a44610ba9678edec5b6830
+Author: binduvr <bindu.vanraak@gmail.com>
+Date:   Mon Jan 21 13:00:40 2019 +0100
+
+    Update Project Application Development.pptx
+
+commit f16d174df1d96d0dcac1115ad68bf66782e34c41
+Author: binduvr <bindu.vanraak@gmail.com>
+Date:   Mon Jan 21 12:41:07 2019 +0100
+
+    Sticking with first presentation
+
+commit c1ae5db495642393009b850482cddac8b10d45b9
+Author: binduvr <bindu.vanraak@gmail.com>
+Date:   Mon Jan 21 12:35:06 2019 +0100
+
+    Created version 2 presentation
+
+commit ed0cc99bf33bf4635bede6ace2ddefc23fc85f24
+Author: binduvr <bindu.vanraak@gmail.com>
+Date:   Sun Jan 20 23:16:20 2019 +0100
+
+    Update Group 2 Reflections.docx
+
+commit abccb2cbb85d7af1787689fca807b30da4bbdf32
+Author: binduvr <bindu.vanraak@gmail.com>
+Date:   Sun Jan 20 23:04:10 2019 +0100
+
+    Update Project Application Development.pptx
+
+commit 68d1fb7efa42b6728c3b02b67431c8ce611ac535
+Author: binduvr <bindu.vanraak@gmail.com>
+Date:   Sun Jan 20 22:22:37 2019 +0100
+
+    Update Group 2 Reflections.docx
+
+commit 48950726fad497a46f9930c19439717a2127e1a0
+Author: binduvr <bindu.vanraak@gmail.com>
+Date:   Sun Jan 20 22:17:31 2019 +0100
+
+    Made it look pretty
+
+commit 830ff0d937c237771a4afe0cd84561cd3af1c551
+Author: joud123 <45172196+joud123@users.noreply.github.com>
+Date:   Sun Jan 20 17:45:33 2019 +0100
+
+    Update Group 2 Reflections.docx
+
+commit 2b22b8c807932009197d1a4dab70881aabf12b97
+Author: binduvr <bindu.vanraak@gmail.com>
+Date:   Thu Jan 17 17:35:18 2019 +0100
+
+    Added reflection document
+
+commit 3059937c486cfa10734e86e6e6f8d1976deca6d8
+Author: binduvr <bindu.vanraak@gmail.com>
+Date:   Thu Jan 17 16:44:08 2019 +0100
+
+    Fisxed wrong class being loaded from classloader
+
+commit 9cc57b490beb4094b48f27a7e7a2f5c34ae325e6
+Author: binduvr <bindu.vanraak@gmail.com>
+Date:   Thu Jan 17 15:52:01 2019 +0100
+
+    Removed duplicate libary from classpath
+
+commit 18d7eb334c7fcbbf0f499b86882a3cb3ab07827d
+Author: binduvr <bindu.vanraak@gmail.com>
+Date:   Thu Jan 17 15:16:23 2019 +0100
+
+    Update Project Application Development.pptx
+
+commit 03844afacdc969b3334dca032ba2b6e1e5dac701
+Author: binduvr <bindu.vanraak@gmail.com>
+Date:   Thu Jan 17 14:56:55 2019 +0100
+
+    Cleaned up repo a bit
+
+commit b3c3df649017444c3c0f19cb01f5353f8949b5ee
+Author: binduvr <bindu.vanraak@gmail.com>
+Date:   Thu Jan 17 14:54:52 2019 +0100
+
+    Updated final project plan and exported to pdf
+
+commit e06065e8c394629bac5868b951ed2f650b052547
+Author: binduvr <bindu.vanraak@gmail.com>
+Date:   Thu Jan 17 14:01:03 2019 +0100
+
+    Create Project Application Development.pptx
+
+commit 4bcb4d5e0f7d83256b763ea1d6bb3aab4da4f1ad
+Author: binduvr <bindu.vanraak@gmail.com>
+Date:   Sun Jan 13 20:57:02 2019 +0100
+
+    Exported final report to pdf
+
+commit 4445f0b8b9c9d3b2999ea8721487610336b94422
+Author: binduvr <bindu.vanraak@gmail.com>
+Date:   Sun Jan 13 20:53:41 2019 +0100
+
+    Made default values come from a settings file.
+
+commit 5edaad9fb37e3a4986efcfbdea78ae19c6d3f5ce
+Author: binduvr <bindu.vanraak@gmail.com>
+Date:   Sun Jan 13 20:53:13 2019 +0100
+
+    Update Group 2 Project Report v1.5.docx
+
+commit 83d078e2e7f1fbb2237f8651dac1ab571b59e6e1
+Author: binduvr <bindu.vanraak@gmail.com>
+Date:   Sun Jan 13 20:07:41 2019 +0100
+
+    Create Group 2 Project Report Final.docx
+
+commit d45fa08945fa4fc415c3ddbe086442526ffae799
+Author: binduvr <bindu.vanraak@gmail.com>
+Date:   Sun Jan 13 15:50:55 2019 +0100
+
+    Added in justins discussion and summary. Not yet finished
+
+commit 98a7b5baf8dbe7c595c5a6a1573391cd3b58ef44
+Author: jusmul <justmulder@gmail.com>
+Date:   Sun Jan 13 13:41:53 2019 +0100
+
+    Create JustinsWork.docx
+
+commit 5ec535a94a5fa4abce5f1f43b6726d36a4c41aa4
+Author: binduvr <bindu.vanraak@gmail.com>
+Date:   Sat Jan 12 22:35:47 2019 +0100
+
+    Made enter press button and stopped too large numbers being entered to avoid crash
+
+commit a260979004f1e8fcecdf9facad63cd88792db9b2
+Author: binduvr <bindu.vanraak@gmail.com>
+Date:   Sat Jan 12 18:52:50 2019 +0100
+
+    Answered main question
+
+commit 58239c1e7b96d74c583a399e96dcbc44ce11bb2c
+Author: binduvr <bindu.vanraak@gmail.com>
+Date:   Sat Jan 12 16:02:25 2019 +0100
+
+    Did some formatting. Almost done!
+
+commit 9731298c4e67aa83e2eb7591e6e7d3189dadd25e
+Author: binduvr <bindu.vanraak@gmail.com>
+Date:   Sat Jan 12 15:46:39 2019 +0100
+
+    Added folder with all the model pictures
+
+commit 64d357075c94ac22655e3299b56a3def75d3e52e
+Author: AssemAbdellaoui <38494377+AssemAbdellaoui@users.noreply.github.com>
+Date:   Sat Jan 12 04:09:10 2019 +0100
+
+    Group 2 Project Report Bindu Assem Joud v1.4
+    
+    If you want to add or edit something, please use this file since it's the most recent one
+
+commit 5778999c742bc9b14c502aa2aa503c7661e8128a
+Author: binduvr <bindu.vanraak@gmail.com>
+Date:   Fri Jan 11 20:20:26 2019 +0100
+
+    Small edit before weekend
+
+commit bd780241c4a329b843ddbaa3619f0a036503ccd3
+Author: binduvr <bindu.vanraak@gmail.com>
+Date:   Fri Jan 11 20:15:47 2019 +0100
+
+    Final touches on application until further consultation
+
+commit 67e256b03b53bc42593903819c6a9d1ff5dddbb0
+Author: binduvr <bindu.vanraak@gmail.com>
+Date:   Fri Jan 11 17:48:39 2019 +0100
+
+    Finished class diagram
+
+commit b2126af528cffd573a42b7cc53034804d9e6fee5
+Author: binduvr <bindu.vanraak@gmail.com>
+Date:   Fri Jan 11 16:48:46 2019 +0100
+
+    Finished Q5
+
+commit e69a92cbea6bf97ce4070014ee80ef96882873ef
+Author: binduvr <bindu.vanraak@gmail.com>
+Date:   Fri Jan 11 14:54:24 2019 +0100
+
+    Create Group 2 Project Report Bindu.docx
+
+commit 3e7248e66ed58021ac87587325ba6f082b0a2eb6
+Author: binduvr <bindu.vanraak@gmail.com>
+Date:   Fri Jan 11 14:51:46 2019 +0100
+
+    Some progress on the report
+
+commit 36ea808e433d11a2552b80005560773790a56064
+Author: binduvr <bindu.vanraak@gmail.com>
+Date:   Fri Jan 11 14:05:52 2019 +0100
+
+    Delete Testing.java
+
+commit ca1fd51643601119e1050f94899d1a8248751198
+Merge: 72f1a5a 7ea32d2
+Author: AssemAbdellaoui <38494377+AssemAbdellaoui@users.noreply.github.com>
+Date:   Fri Jan 11 09:33:19 2019 +0100
+
+    Merge branch 'master' of https://github.com/binduvr/ApplicationDevelopment
+
+commit 72f1a5a9549825c158d1912d750e7c237f922f09
+Merge: 0a25545 7c85efa
+Author: AssemAbdellaoui <38494377+AssemAbdellaoui@users.noreply.github.com>
+Date:   Fri Jan 11 09:33:10 2019 +0100
+
+    Merge branch 'master' of https://github.com/binduvr/ApplicationDevelopment
+
+commit 7ea32d2f26b05a3480272c8fd51abf696b6447f5
+Author: binduvr <45000857+binduvr@users.noreply.github.com>
+Date:   Thu Jan 10 18:01:09 2019 +0100
+
+    Started domain model
+
+commit 656dde71bce21aed46715d42bbf6e75afb78b54e
+Author: binduvr <45000857+binduvr@users.noreply.github.com>
+Date:   Wed Jan 9 20:16:19 2019 +0100
+
+    Made model selection smoother and adding species to the nature preserve also.
+
+commit 464feca06fa8b61f0a61fc4df6b0a554f07d9e07
+Author: binduvr <45000857+binduvr@users.noreply.github.com>
+Date:   Wed Jan 9 14:50:17 2019 +0100
+
+    Added class to validate textfields.
+
+commit a121b68af8a7478080ea1fabb9132caee2b96a02
+Author: binduvr <45000857+binduvr@users.noreply.github.com>
+Date:   Wed Jan 9 11:11:33 2019 +0100
+
+    Some mods
+
+commit 3615818b9cb0a78239b95ee91c1003111af1556c
+Author: binduvr <bindu.vanraak@gmail.com>
+Date:   Tue Jan 8 21:57:57 2019 +0100
+
+    Added table and click listener to show data of animals
+
+commit d19969f60527af2c0fe3b694a5fae342c7f53778
+Author: binduvr <bindu.vanraak@gmail.com>
+Date:   Tue Jan 8 19:31:51 2019 +0100
+
+    Changed version nr.
+
+commit 0c97e0aceb00560fbb0396efd65d132a76057287
+Author: binduvr <45000857+binduvr@users.noreply.github.com>
+Date:   Tue Jan 8 16:32:21 2019 +0100
+
+    Update Week 6 Agendas and Minutes.docx
+
+commit 740d946dd05c83a0b8c9dfb36e10f3c0d049148b
+Author: binduvr <45000857+binduvr@users.noreply.github.com>
+Date:   Tue Jan 8 12:17:48 2019 +0100
+
+    Edited report somewhat and fixed agendas and minutes.
+
+commit 83bfe8ce982a3cf2758ddde108cb567f0c480a18
+Author: AssemAbdellaoui <38494377+AssemAbdellaoui@users.noreply.github.com>
+Date:   Tue Jan 8 10:47:49 2019 +0100
+
+    Group 2 Project Report v1.1
+    
+    Group 2 Project Report v1.1
+
+commit 0a8522a72d005d50fb9f8f4084f17344d224748e
+Author: binduvr <45000857+binduvr@users.noreply.github.com>
+Date:   Tue Jan 8 10:43:58 2019 +0100
+
+    Added new class for next model
+
+commit 0a1c335a8831173843f3b430fa2c22e2efa28c55
+Author: binduvr <bindu.vanraak@gmail.com>
+Date:   Fri Jan 4 17:48:07 2019 +0100
+
+    Create Week 6 Agendas and Minutes.docx
+
+commit cca9ae61f78d5cefe42ef8350821594f1cc359ea
+Merge: 9df0a9d c44eca1
+Author: binduvr <bindu.vanraak@gmail.com>
+Date:   Fri Jan 4 14:43:55 2019 +0100
+
+    Merge branch 'version1-0'
+
+commit 9df0a9d093fceaad8c3fd9010e649236d01e6b46
+Author: binduvr <bindu.vanraak@gmail.com>
+Date:   Fri Jan 4 14:37:15 2019 +0100
+
+    Create Group 2 Project Report v1.1.docx
+
+commit c44eca16649bcfc696b949a4dafb73370179b4c1
+Author: binduvr <bindu.vanraak@gmail.com>
+Date:   Fri Jan 4 14:35:53 2019 +0100
+
+    Update Group 2 Project Report v1.1.docx
+
+commit c3fc49933cf33e1a020039ddaa75bd1fea405829
+Author: binduvr <bindu.vanraak@gmail.com>
+Date:   Wed Jan 2 21:27:32 2019 +0100
+
+    Started to work on report
+
+commit 71aa65b2488fcc640b2617a102c0f138dc252115
+Author: binduvr <45000857+binduvr@users.noreply.github.com>
+Date:   Thu Dec 20 12:40:05 2018 +0100
+
+    Update HeckCattle.txt
+
+commit d1a86d3888ef926a6a803dd417f8e44ecfbf1be4
+Author: binduvr <45000857+binduvr@users.noreply.github.com>
+Date:   Thu Dec 20 12:40:02 2018 +0100
+
+    Some updates
+
+commit c80458641205a3e5c0f9ce3f43453bbac15d3762
+Author: binduvr <45000857+binduvr@users.noreply.github.com>
+Date:   Thu Dec 20 10:49:25 2018 +0100
+
+    Update Draft of math models.docx
+
+commit 3bb977ebbf996424a94d1008cdd2089769f73730
+Author: binduvr <45000857+binduvr@users.noreply.github.com>
+Date:   Thu Dec 20 10:09:00 2018 +0100
+
+    IDK
+
+commit 365066dbdb4d17f9624e35afa06275d79b76b01e
+Author: binduvr <bindu.vanraak@gmail.com>
+Date:   Wed Dec 19 21:58:12 2018 +0100
+
+    Cleaned up code
+
+commit 2b0757938a5bd339f45beaa0b3fe460b1ad74ee6
+Author: binduvr <bindu.vanraak@gmail.com>
+Date:   Wed Dec 19 21:43:28 2018 +0100
+
+    test
+
+commit faf68c46d7da6ae6cf3e7abb1486953e744329da
+Author: binduvr <bindu.vanraak@gmail.com>
+Date:   Wed Dec 19 21:41:26 2018 +0100
+
+    Create test.txt
+
+commit e2fadcdd3e9c51625807cb3effd1b950b796987c
+Author: binduvr <bindu.vanraak@gmail.com>
+Date:   Wed Dec 19 21:38:50 2018 +0100
+
+    Revert "Revert "Made growth rate not calculated from b and d""
+    
+    This reverts commit c6ef959c14094c15c8691fa7bb5119657fe2f374.
+
+commit c6ef959c14094c15c8691fa7bb5119657fe2f374
+Author: binduvr <bindu.vanraak@gmail.com>
+Date:   Wed Dec 19 21:38:25 2018 +0100
+
+    Revert "Made growth rate not calculated from b and d"
+    
+    This reverts commit e5ce9dd1c75b14089e14e0f112cde43a57c4c1a6.
+
+commit e5ce9dd1c75b14089e14e0f112cde43a57c4c1a6
+Author: binduvr <bindu.vanraak@gmail.com>
+Date:   Wed Dec 19 21:33:54 2018 +0100
+
+    Made growth rate not calculated from b and d
+
+commit cef76f8118b98ae46e686c06a3bd51e9d2b4de11
+Author: binduvr <bindu.vanraak@gmail.com>
+Date:   Wed Dec 19 19:19:47 2018 +0100
+
+    Made things (hopefully) scaleable
+
+commit 016bfc9e33089957cc664f0b617aec29a7d23c4e
+Author: binduvr <bindu.vanraak@gmail.com>
+Date:   Tue Dec 18 22:01:45 2018 +0100
+
+    Did some major coding.
+    
+    Added a modelfactory which returns the current model to be used, made "LargeHerbivore" an abstract class and the three herbivores extending that class. Made a NaturePreserve class which has a method getState which return the state of the NaturePreserve and all of the species in it after giving it a certain time. Some major bugs still need to be fixed
+
+commit f7d8f16b75b7f82e54118e2ab673aa14836607fc
+Author: binduvr <bindu.vanraak@gmail.com>
+Date:   Tue Dec 18 21:59:46 2018 +0100
+
+    Paperwork stuff
+
+commit 5dbc4f5750f1c108875139bde2e5243e86eebe09
+Author: AssemAbdellaoui <38494377+AssemAbdellaoui@users.noreply.github.com>
+Date:   Mon Dec 17 08:30:57 2018 +0100
+
+    Add files via upload
+    
+    Draft of math models
+
+commit c800d9a09a7c294f6cf6a4c47e2188f888326046
+Author: AssemAbdellaoui <38494377+AssemAbdellaoui@users.noreply.github.com>
+Date:   Mon Dec 17 08:30:22 2018 +0100
+
+    Delete Draft of math models
+
+commit 2b6e981a69387ea47552c114e619652c9c215a49
+Author: AssemAbdellaoui <38494377+AssemAbdellaoui@users.noreply.github.com>
+Date:   Mon Dec 17 08:27:52 2018 +0100
+
+    Create Draft of math models
+
+commit 5a5482439f010254cbfc76454d72370d3fa689a4
+Author: binduvr <45000857+binduvr@users.noreply.github.com>
+Date:   Thu Dec 13 15:54:52 2018 +0100
+
+    Adding design patterns
+
+commit 0a25545e0a9f3fda36f6681cafe3a6bcfa2bc1a3
+Author: AssemAbdellaoui <38494377+AssemAbdellaoui@users.noreply.github.com>
+Date:   Thu Dec 13 14:54:27 2018 +0100
+
+    Revert "Update Group 2 Project Plan v1.0.docx"
+    
+    This reverts commit b3b04538b330412fa7d0e41e8bb98e23d1c0740b.
+
+commit 7c85efa55c3d5be1756354041c7ccbf7a9c2dda1
+Author: binduvr <bindu.vanraak@gmail.com>
+Date:   Wed Dec 12 22:47:54 2018 +0100
+
+    Create Use Case Descriptions Bindu.docx
+
+commit 9a76d23b53790e3cefa36cb3fda03db26deb4e4f
+Author: binduvr <bindu.vanraak@gmail.com>
+Date:   Wed Dec 12 17:25:52 2018 +0100
+
+    Basic stuff
+
+commit 1b2666e10fd214b794c4fb040995703ae23f8b1a
+Author: binduvr <45000857+binduvr@users.noreply.github.com>
+Date:   Wed Dec 12 17:17:00 2018 +0100
+
+    Started making code proper and scalable
+
+commit 66700aa954ba56bacf23e82b64e632bdca052183
+Author: binduvr <45000857+binduvr@users.noreply.github.com>
+Date:   Wed Dec 12 11:24:56 2018 +0100
+
+    Update StatisticsViewController.java
+
+commit 3414473e2045ff068b3565c2b49d5b66dd6292d8
+Author: binduvr <45000857+binduvr@users.noreply.github.com>
+Date:   Wed Dec 12 11:24:52 2018 +0100
+
+    Update NatureReserve.java
+
+commit 9d8ca3b46ff697eaff0bab0356c37a522a76615e
+Author: binduvr <bindu.vanraak@gmail.com>
+Date:   Tue Dec 11 19:39:05 2018 +0100
+
+    Added drop down menu to choose model. Not yet functional.
+
+commit 90033e9f1d24ef20baa67b12b2d9e93f2231828f
+Author: binduvr <45000857+binduvr@users.noreply.github.com>
+Date:   Tue Dec 11 17:51:57 2018 +0100
+
+    Create MathModels.java
+
+commit dd4fb8e628f6af8f871123dd2d1d31efac216563
+Author: binduvr <45000857+binduvr@users.noreply.github.com>
+Date:   Tue Dec 11 17:51:45 2018 +0100
+
+    Logistic Growth now implemented and some base classes made.
+
+commit 51b1c38e0c74e2180328cdf0a276ed57e3ec5547
+Author: binduvr <45000857+binduvr@users.noreply.github.com>
+Date:   Tue Dec 11 14:44:05 2018 +0100
+
+    Create Previous year models.docx
+
+commit e08d49862547f9abef9aea33f69e2964484d6836
+Author: binduvr <45000857+binduvr@users.noreply.github.com>
+Date:   Tue Dec 11 12:20:12 2018 +0100
+
+    Some editing to plan
+
+commit f85ffcef8f040743aac77d165b1336fac9986bac
+Author: binduvr <45000857+binduvr@users.noreply.github.com>
+Date:   Tue Dec 11 12:20:03 2018 +0100
+
+    Started with graph
+
+commit 9fd3012804cc64fec3c82bd7a0e572267809876f
+Author: binduvr <45000857+binduvr@users.noreply.github.com>
+Date:   Tue Dec 11 10:44:27 2018 +0100
+
+    Update Group 2 Project Plan v1.3.docx
+
+commit 3ec60da11c340f5026278d14da8a2c130c60707b
+Author: binduvr <45000857+binduvr@users.noreply.github.com>
+Date:   Tue Dec 11 10:38:27 2018 +0100
+
+    New project plan and literature
+
+commit bc2857cc50357d865c036693db0fca7825fe7c57
+Author: binduvr <bindu.vanraak@gmail.com>
+Date:   Mon Dec 10 21:59:16 2018 +0100
+
+    Started simple use case diagram
+
+commit 096c7d050dbcf73a165d4ebaa7ce10fa90d79159
+Author: binduvr <bindu.vanraak@gmail.com>
+Date:   Mon Dec 10 21:02:52 2018 +0100
+
+    Added a dialog to show assumptions
+
+commit 9e820c544667b9ebb3048e64cf3f7460ad2234d8
+Author: binduvr <bindu.vanraak@gmail.com>
+Date:   Sun Dec 9 18:25:57 2018 +0100
+
+    Nothing happened in week 3 so this is week 4
+
+commit cc21fece35800a450b9f248bea6c37fa823a7010
+Author: binduvr <bindu.vanraak@gmail.com>
+Date:   Sun Dec 9 18:12:56 2018 +0100
+
+    Update Week 3 Agendas and Minutes.docx
+
+commit 77fd32176d12a841be9e5d2d428afaf32a9cb392
+Author: binduvr <bindu.vanraak@gmail.com>
+Date:   Tue Dec 4 21:19:32 2018 +0100
+
+    Changed name of doc
+
+commit 9bd7b98b7a2b9bfe5cda4d82147dfcbc933f0112
+Author: binduvr <bindu.vanraak@gmail.com>
+Date:   Tue Dec 4 20:53:11 2018 +0100
+
+    Update Week 3 Agendas and Minutes.docx
+
+commit f7b2e1ea51d3f6644672180da08986a8a67bc737
+Merge: a10fc11 5b5e74d
+Author: jusmul <justmulder@gmail.com>
+Date:   Tue Dec 4 12:45:21 2018 +0100
+
+    Merge branch 'master' of https://github.com/binduvr/ApplicationDevelopment
+
+commit a10fc114f6a977485be1e515ba20c61619b87b91
+Author: jusmul <justmulder@gmail.com>
+Date:   Tue Dec 4 12:45:06 2018 +0100
+
+    Update Number of large herbivores in the Oostvaardersplassen 1985 - 2015.xlsx
+
+commit 5b5e74dbf7a0cb49798e1a6f16d191ee2dacfbab
+Author: binduvr <45000857+binduvr@users.noreply.github.com>
+Date:   Tue Dec 4 12:36:53 2018 +0100
+
+    Create jfxrt.jar
+
+commit 3ecc85d0e631fa9fa8586a1c64b325655cfcdb41
+Author: binduvr <45000857+binduvr@users.noreply.github.com>
+Date:   Tue Dec 4 12:36:49 2018 +0100
+
+    Update .classpath
+
+commit c3c0f8bf5b29313b3dc38140de1776c8e89d78be
+Author: binduvr <45000857+binduvr@users.noreply.github.com>
+Date:   Tue Dec 4 12:18:39 2018 +0100
+
+    Update Week 3 Agendas and Minutes.docx
+
+commit 769cb1e7eca76a21465f43379ffb91ef4220c632
+Author: binduvr <45000857+binduvr@users.noreply.github.com>
+Date:   Tue Dec 4 12:11:42 2018 +0100
+
+    Update UML draft.docx
+
+commit f9d0c5e6c624c413b2cce262fa5773094a8ddad5
+Author: binduvr <45000857+binduvr@users.noreply.github.com>
+Date:   Tue Dec 4 11:46:28 2018 +0100
+
+    Create UML draft.docx
+
+commit aba15a51c894b57af95c3125ab65a7d9e6af86e1
+Author: binduvr <45000857+binduvr@users.noreply.github.com>
+Date:   Tue Dec 4 11:46:23 2018 +0100
+
+    Update Week 3 Agendas and Minutes.docx
+
+commit ab3fe745f06bf51117691c765e51969b74245805
+Author: binduvr <bindu.vanraak@gmail.com>
+Date:   Sun Dec 2 19:57:36 2018 +0100
+
+    Update Group 2 Project Plan v1.2.docx
+
+commit c996ce1e38214494a66d20c084661e3dbc682bf0
+Author: binduvr <bindu.vanraak@gmail.com>
+Date:   Sun Dec 2 19:51:16 2018 +0100
+
+    Changed name of report
+
+commit 2002ecb3965f4547b7f5b6e7ab61c72e11daa453
+Author: binduvr <bindu.vanraak@gmail.com>
+Date:   Sun Dec 2 17:10:38 2018 +0100
+
+    Basic start to code
+
+commit 5f9d4b41f1326e8a625f54211131a52997e68dab
+Author: binduvr <bindu.vanraak@gmail.com>
+Date:   Sun Dec 2 17:10:08 2018 +0100
+
+    Create Group 2 Project Plan v1.2.docx
+
+commit 9129bb1fda93e6f106b06e7437de057e55c4acfa
+Author: binduvr <bindu.vanraak@gmail.com>
+Date:   Sun Dec 2 17:09:39 2018 +0100
+
+    Added a data folder
+
+commit 6059ffca1fa1d5cd5632af17e53e747c6df1d02e
+Author: binduvr <bindu.vanraak@gmail.com>
+Date:   Sun Dec 2 16:55:18 2018 +0100
+
+    Create Week 3 Agendas and Minutes.docx
+
+commit d68e7a08978c3e11debe74fc9c8fc28c1cb419f6
+Author: binduvr <bindu.vanraak@gmail.com>
+Date:   Sun Dec 2 16:13:00 2018 +0100
+
+    Re-added project to double check it works
+
+commit 1c29fa973811c025af2c5ea799993fbed7c4d0c5
+Author: binduvr <bindu.vanraak@gmail.com>
+Date:   Sun Dec 2 16:10:43 2018 +0100
+
+    Revert "Added a new JavaFX project"
+    
+    This reverts commit 14b0b2a802b50911f049b8a95fd0cc15529b66e2.
+
+commit 14b0b2a802b50911f049b8a95fd0cc15529b66e2
+Author: binduvr <bindu.vanraak@gmail.com>
+Date:   Sun Dec 2 16:10:22 2018 +0100
+
+    Added a new JavaFX project
+
+commit c86d2c89ffc76a1484f64b1f89c57d192a7271b0
+Author: binduvr <bindu.vanraak@gmail.com>
+Date:   Sun Dec 2 16:02:37 2018 +0100
+
+    Moved all paperwork to "Paper Work" folder
+
+commit 374e6140395ded703f89ae0b394e17ba1d7fd93d
+Author: binduvr <bindu.vanraak@gmail.com>
+Date:   Sun Dec 2 15:57:37 2018 +0100
+
+    Update AmsterDrugs Project Report v1.0.docx
+
+commit 6f8d9a4ffbde287cf6040f65dda0af071fadc6fc
+Author: binduvr <bindu.vanraak@gmail.com>
+Date:   Mon Nov 26 19:24:47 2018 +0100
+
+    Project plan updated and first report set up
+
+commit 45868f559935b49e6d499a2d36f10ccdeb8faa2d
+Author: binduvr <bindu.vanraak@gmail.com>
+Date:   Sun Nov 25 21:31:20 2018 +0100
+
+    Update Group 2 Project Plan v1.0.docx
+
+commit 9f2c510a9066db416d6cb7bcbde728b3f16256e4
+Author: binduvr <bindu.vanraak@gmail.com>
+Date:   Sun Nov 25 17:56:49 2018 +0100
+
+    Update Week 2 Agendas and Minutes.docx
+
+commit 5b4d4230f25286cf0310b81035bd7ef51e9b1bcb
+Author: binduvr <bindu.vanraak@gmail.com>
+Date:   Sun Nov 25 17:56:45 2018 +0100
+
+    Update Group 2 Project Plan v1.0.docx
+
+commit e2f20f286499523eb66bbe25e1a12451d6ba8ca7
+Author: binduvr <bindu.vanraak@gmail.com>
+Date:   Sun Nov 25 17:41:16 2018 +0100
+
+    Update Week 2 Agendas and Minutes.docx
+
+commit 7d9749997d768428495e8f3a1e64a98b7516d0af
+Merge: 7112f68 a8305ae
+Author: jusmul <justmulder@gmail.com>
+Date:   Thu Nov 22 14:54:43 2018 +0100
+
+    Merge branch 'master' of https://github.com/binduvr/ApplicationDevelopment
+
+commit 7112f68dc9da873affbb11427731ddcbf98d4730
+Author: jusmul <justmulder@gmail.com>
+Date:   Thu Nov 22 14:54:40 2018 +0100
+
+    Revert "Update Group 2 Project Plan v1.0.docx"
+    
+    This reverts commit a7093d22c4baa364b0198ab1e8ac62ed035f2528.
+
+commit bb9e2622556a56183164f8f329f92aeb3a37e2b8
+Author: jusmul <justmulder@gmail.com>
+Date:   Thu Nov 22 14:53:07 2018 +0100
+
+    Revert "Create ~$ek 2 Agendas and Minutes.docx"
+    
+    This reverts commit 389fc2a4082cdd147ee572a1aeb23867ac8e66ce.
+
+commit 389fc2a4082cdd147ee572a1aeb23867ac8e66ce
+Author: jusmul <justmulder@gmail.com>
+Date:   Thu Nov 22 14:52:42 2018 +0100
+
+    Create ~$ek 2 Agendas and Minutes.docx
+
+commit d7b6c277d22e31f69f63f650c37bf001fb948b9b
+Author: jusmul <justmulder@gmail.com>
+Date:   Thu Nov 22 14:51:56 2018 +0100
+
+    Update Week 2 Agendas and Minutes.docx
+
+commit a8305ae3eca023060f7c7b3adbffb97948c3ddec
+Author: binduvr <bindu.vanraak@gmail.com>
+Date:   Wed Nov 21 15:21:59 2018 +0100
+
+    Risks added to plan
+
+commit 12a73d9fde49c43b351252e31f7c742755ccf4fb
+Author: AssemAbdellaoui <38494377+AssemAbdellaoui@users.noreply.github.com>
+Date:   Tue Nov 20 14:09:25 2018 +0100
+
+    Create Group 2 Project Plan v1.2.docx
+
+commit e18020d3bdcbcda25e13d4c33a1a7ee9031fe71f
+Author: AssemAbdellaoui <38494377+AssemAbdellaoui@users.noreply.github.com>
+Date:   Tue Nov 20 14:05:42 2018 +0100
+
+    Add files via upload
+
+commit 3bc5f784063933441f2cc865e9e213104233161e
+Author: AssemAbdellaoui <38494377+AssemAbdellaoui@users.noreply.github.com>
+Date:   Tue Nov 20 13:57:54 2018 +0100
+
+    Add files via upload
+    
+    Risks added
+
+commit ab00befb26b0415a50c1f160587a13068aee04d8
+Author: AssemAbdellaoui <38494377+AssemAbdellaoui@users.noreply.github.com>
+Date:   Tue Nov 20 13:54:08 2018 +0100
+
+    Add files via upload
+    
+    Risks Added
+
+commit e8522b701c65a2d8c921b8d7a7f18a4ea399ab9e
+Author: binduvr <45000857+binduvr@users.noreply.github.com>
+Date:   Tue Nov 20 12:42:59 2018 +0100
+
+    Update Group 2 Project Plan v1.0.docx
+
+commit b3b04538b330412fa7d0e41e8bb98e23d1c0740b
+Author: AssemAbdellaoui <38494377+AssemAbdellaoui@users.noreply.github.com>
+Date:   Tue Nov 20 12:38:07 2018 +0100
+
+    Update Group 2 Project Plan v1.0.docx
+
+commit a7093d22c4baa364b0198ab1e8ac62ed035f2528
+Author: jusmul <justmulder@gmail.com>
+Date:   Tue Nov 20 12:30:17 2018 +0100
+
+    Update Group 2 Project Plan v1.0.docx
+
+commit 4a2243a802773efb8dc08d329eb59e3cf21307c3
+Author: jusmul <justmulder@gmail.com>
+Date:   Tue Nov 20 12:30:03 2018 +0100
+
+    Delete ~$ek 2 Agendas and Minutes.docx
+
+commit b5e3001205ef38a82523f33678d2f8dfd59c3a4a
+Author: jusmul <justmulder@gmail.com>
+Date:   Tue Nov 20 12:29:15 2018 +0100
+
+    Update Week 2 Agendas and Minutes.docx
+
+commit de32a3acd16ba315295a0ee559f418cf59b0e750
+Author: AssemAbdellaoui <38494377+AssemAbdellaoui@users.noreply.github.com>
+Date:   Tue Nov 20 12:29:00 2018 +0100
+
+    Update Group 2 Project Plan v1.0.docx
+
+commit c48089b2b766b3eed95bc21d6aef513eb6645b09
+Author: binduvr <45000857+binduvr@users.noreply.github.com>
+Date:   Tue Nov 20 12:27:44 2018 +0100
+
+    Delete ~$ek 2 Agendas and Minutes.docx
+
+commit 660acdbef0380864c009c632cfc26185ea76e9e8
+Author: binduvr <45000857+binduvr@users.noreply.github.com>
+Date:   Tue Nov 20 12:27:41 2018 +0100
+
+    Update Group 2 Project Plan v1.0.docx
+
+commit a98d2ff23a333864820f110692da1ec7879c5357
+Merge: 3e50658 f55d58b
+Author: binduvr <45000857+binduvr@users.noreply.github.com>
+Date:   Tue Nov 20 11:59:58 2018 +0100
+
+    Merge branch 'master' of https://github.com/binduvr/ApplicationDevelopment
+
+commit 3e50658f7a9c085226121d900f0711c6f9e4bb99
+Author: binduvr <45000857+binduvr@users.noreply.github.com>
+Date:   Tue Nov 20 11:59:44 2018 +0100
+
+    Update Group 2 Project Plan v1.0.docx
+
+commit f55d58bc106325b20d8a99be41448cd52b134b46
+Author: AssemAbdellaoui <38494377+AssemAbdellaoui@users.noreply.github.com>
+Date:   Tue Nov 20 11:50:52 2018 +0100
+
+    Delete Justice Project Plan APD v1.1.docx
+
+commit 0624627d9f7e44fd2237cd1bc11fcb54be8d1e56
+Author: AssemAbdellaoui <38494377+AssemAbdellaoui@users.noreply.github.com>
+Date:   Tue Nov 20 11:50:11 2018 +0100
+
+    Create Justice Project Plan APD v1.1.docx
+
+commit a9081d486248e5a42f125ebbf9721ce5d421cd53
+Author: AssemAbdellaoui <38494377+AssemAbdellaoui@users.noreply.github.com>
+Date:   Tue Nov 20 11:43:49 2018 +0100
+
+    Create Justice Project Plan APD v1.1.docx
+
+commit 879ae3d724330b20f6b6c2d6f737b4c172a56e0e
+Author: binduvr <45000857+binduvr@users.noreply.github.com>
+Date:   Tue Nov 20 11:41:19 2018 +0100
+
+    Templates
+
+commit 4b65d2c82b9c9a66afdb8559026c702583d56a32
+Merge: 7f166e4 2160452
+Author: binduvr <45000857+binduvr@users.noreply.github.com>
+Date:   Tue Nov 20 11:24:31 2018 +0100
+
+    Merge branch 'master' of https://github.com/binduvr/ApplicationDevelopment
+
+commit 7f166e4678ac548f833d446480cc16536609afe2
+Author: binduvr <45000857+binduvr@users.noreply.github.com>
+Date:   Tue Nov 20 11:20:28 2018 +0100
+
+    Update Group 2 Project Plan v1.0.docx
+
+commit 2160452511f8fe3ac5a319e0c4e2eb196013398d
+Merge: ad1f0ab ab55574
+Author: jusmul <justmulder@gmail.com>
+Date:   Tue Nov 20 11:18:40 2018 +0100
+
+    Merge branch 'master' of https://github.com/binduvr/ApplicationDevelopment
+
+commit ad1f0ab8b3ced492a744f4479844bc75e6fffc5e
+Author: jusmul <justmulder@gmail.com>
+Date:   Tue Nov 20 11:18:32 2018 +0100
+
+    Delete ~$oup 2 Project Plan v1.0.docx
+
+commit ab5557459e58eec2a3eec4c735153af55494cab3
+Author: binduvr <45000857+binduvr@users.noreply.github.com>
+Date:   Tue Nov 20 11:05:11 2018 +0100
+
+    Delete ~$oup 2 Project Plan v1.0.docx
+
+commit 81aabd4aa60b10cdc311e5d7e4afaa93c2184676
+Author: jusmul <justmulder@gmail.com>
+Date:   Tue Nov 20 11:04:12 2018 +0100
+
+    Create ~$ek 2 Agendas and Minutes.docx
+
+commit 049a56e82c77c2ebb749b20a8937799803dbb05d
+Author: jusmul <justmulder@gmail.com>
+Date:   Tue Nov 20 11:04:08 2018 +0100
+
+    Create ~$oup 2 Project Plan v1.0.docx
+
+commit 5d7417e7b12cdc3a5d5d31c1a4ec6f5b90541c92
+Author: binduvr <45000857+binduvr@users.noreply.github.com>
+Date:   Tue Nov 20 10:24:26 2018 +0100
+
+    Update Week 2 Agendas and Minutes.docx
+
+commit 0c69a8e2be0e5d309b9e68e4e779d3f59d92f385
+Author: binduvr <45000857+binduvr@users.noreply.github.com>
+Date:   Tue Nov 20 10:03:09 2018 +0100
+
+    Update Week 1 Agendas and Minutes.docx
+
+commit df4c81b2854356e5a32ab182642e72eb4f65e7ba
+Author: binduvr <45000857+binduvr@users.noreply.github.com>
+Date:   Tue Nov 20 10:01:47 2018 +0100
+
+    Update Week 1 Agendas and Minutes.docx
+
+commit 979e7da6be7be395a2696e2b76339ff12e742c9f
+Author: binduvr <bindu.vanraak@gmail.com>
+Date:   Mon Nov 19 22:12:42 2018 +0100
+
+    Create Week 2 Agendas and Minutes.docx
+
+commit 02e377694b57ab8ba2d05dccf35d53e08c5ef243
+Author: binduvr <bindu.vanraak@gmail.com>
+Date:   Mon Nov 19 22:10:27 2018 +0100
+
+    Update Week 1 Agendas and Minutes.docx
+
+commit bcb2a64b72edd9b0bb3f11d579a82067d5411d98
+Author: binduvr <45000857+binduvr@users.noreply.github.com>
+Date:   Mon Nov 19 15:36:47 2018 +0100
+
+    Delete ~$ek 1 Agendas and Minutes.docx
+
+commit 4cb66080cebac293bc9f393114b2b7e3af6ba4da
+Author: binduvr <45000857+binduvr@users.noreply.github.com>
+Date:   Mon Nov 19 15:36:16 2018 +0100
+
+    Create subquestionsdraft.docx
+
+commit 3dd38297f6b204d17007bb17f2fe64d6b2dd3d7d
+Author: binduvr <45000857+binduvr@users.noreply.github.com>
+Date:   Mon Nov 19 15:36:12 2018 +0100
+
+    Update Week 1 Agendas and Minutes.docx
+
+commit f1f0a0ec2dec12f3b3bf75cf9c9e08161b3dc64a
+Merge: 3bbf720 b80d28c
+Author: binduvr <45000857+binduvr@users.noreply.github.com>
+Date:   Mon Nov 19 15:24:50 2018 +0100
+
+    Merge branch 'master' of https://github.com/binduvr/ApplicationDevelopment
+
+commit 3bbf720daf539b349b37158749683ed3462f7943
+Author: binduvr <45000857+binduvr@users.noreply.github.com>
+Date:   Mon Nov 19 15:24:43 2018 +0100
+
+    Create ~$ek 1 Agendas and Minutes.docx
+
+commit 646b45caf84f1fb615263b37fdca4272dc2c395c
+Author: binduvr <45000857+binduvr@users.noreply.github.com>
+Date:   Mon Nov 19 15:11:59 2018 +0100
+
+    Delete test.txt
+
+commit b80d28ce9bf3afbc4b59bd5bbbb9eba22223adc9
+Author: jusmul <justmulder@gmail.com>
+Date:   Mon Nov 19 15:09:28 2018 +0100
+
+    Update Group 2 Project Plan v1.0.docx
+
+commit 74a49ab2ff707230cba873455ecc80362b029443
+Merge: 6cf0b3a 8275349
+Author: jusmul <justmulder@gmail.com>
+Date:   Mon Nov 19 15:06:21 2018 +0100
+
+    Merge branch 'master' of https://github.com/binduvr/ApplicationDevelopment
+
+commit 6cf0b3afd82c982ec4a1abbc826fb6f24e355b32
+Author: jusmul <justmulder@gmail.com>
+Date:   Mon Nov 19 15:06:08 2018 +0100
+
+    Delete Justin.docx
+
+commit 82753496a078555b1ef5bc6d61eb1c4d147b6d53
+Author: binduvr <45000857+binduvr@users.noreply.github.com>
+Date:   Mon Nov 19 15:05:23 2018 +0100
+
+    Delete ~$ek 1 Agendas and Minutes.docx
+
+commit 5306a39629818b7f0375da338e2af5f66e5fac82
+Merge: 8f1421a 218bfab
+Author: joud123 <45172196+joud123@users.noreply.github.com>
+Date:   Mon Nov 19 15:03:14 2018 +0100
+
+    Merge branch 'master' of https://github.com/binduvr/ApplicationDevelopment
+
+commit 8f1421aead46a7297f8b5c3f220ee49f51266b4f
+Author: joud123 <45172196+joud123@users.noreply.github.com>
+Date:   Mon Nov 19 15:02:51 2018 +0100
+
+    Update test.txt
+
+commit c838ff444c013ea385b77c4774700b55ec76ce75
+Author: joud123 <45172196+joud123@users.noreply.github.com>
+Date:   Mon Nov 19 15:02:35 2018 +0100
+
+    Revert "Update test.txt"
+    
+    This reverts commit ba0af795a074bab987ac32d627f9480b27b3b1d6.
+
+commit 218bfabf672313e665ac4c7c0ed8240caa15d35b
+Merge: 4d5fd82 2c0f9ef
+Author: jusmul <justmulder@gmail.com>
+Date:   Mon Nov 19 15:02:32 2018 +0100
+
+    Merge branch 'master' of https://github.com/binduvr/ApplicationDevelopment
+
+commit ba0af795a074bab987ac32d627f9480b27b3b1d6
+Author: joud123 <45172196+joud123@users.noreply.github.com>
+Date:   Mon Nov 19 15:02:29 2018 +0100
+
+    Update test.txt
+
+commit 4d5fd820efff219faa261fc247cc958d4cae80c5
+Author: jusmul <justmulder@gmail.com>
+Date:   Mon Nov 19 15:02:29 2018 +0100
+
+    Create ~$ek 1 Agendas and Minutes.docx
+
+commit d6bef2b6396c1595a5d82a6d86bc6440b402dc86
+Author: jusmul <justmulder@gmail.com>
+Date:   Mon Nov 19 15:02:25 2018 +0100
+
+    Create Justin.docx
+
+commit 2c0f9ef109148e18069e631fb53583199d4f8f28
+Author: joud123 <45172196+joud123@users.noreply.github.com>
+Date:   Mon Nov 19 14:59:16 2018 +0100
+
+    Update test.txt
+
+commit e0046b612ba6b677388e7819ff788150c560fc16
+Author: joud123 <45172196+joud123@users.noreply.github.com>
+Date:   Mon Nov 19 14:58:32 2018 +0100
+
+    Create test.txt
+
+commit d3c4e7be58f2aad34393e70d02ec776661f12dc6
+Author: binduvr <45000857+binduvr@users.noreply.github.com>
+Date:   Mon Nov 19 14:53:50 2018 +0100
+
+    Copied repository
+
+commit fb7128a202d40ce8c8b8cdec6522b570b28e6400
+Author: binduvr <45000857+binduvr@users.noreply.github.com>
+Date:   Mon Nov 19 14:49:54 2018 +0100
+
+    Initial commit
