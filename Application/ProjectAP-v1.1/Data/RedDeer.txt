@@ -1,0 +1,4 @@
+Species: Red Deer
+Intitial Population: 45
+Carrying Capacity: 3100
+Growth Rate: 0.19

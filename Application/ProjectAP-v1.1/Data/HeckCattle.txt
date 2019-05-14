@@ -1,0 +1,4 @@
+Species: Heck Cattle
+Intitial Population: 34
+Carrying Capacity: 400
+Growth Rate: 0.124

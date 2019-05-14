@@ -1,0 +1,2 @@
+Default time range: 25
+Default time selected: 0
