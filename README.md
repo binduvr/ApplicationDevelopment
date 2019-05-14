@@ -7,15 +7,12 @@ This was our first time using Git for a project. Therefore, the structure and co
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
-
 In order to use this software a Java Runtime must be installed on your pc. 
+This software is cross-platform and can be used on any pc with a JRE installed.
 
 ### Installing
 
 Download the [ProjectAP v1.1](Application/ProjectAP-v1.1) folder from the Application folder in this repository and from there the runnable .jar file can be used.
-This software is cross-platform and can be used on any pc with a JRE installed.
-
 
 ## Built With
 
