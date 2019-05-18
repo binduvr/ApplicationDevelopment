@@ -12,7 +12,9 @@ This software is cross-platform and can be used on any pc with a JRE installed.
 
 ## Installing
 
-Download the [ProjectAP v1.1](Application/ProjectAP-v1.1) folder from the Application folder in this repository and from there the runnable .jar file can be used.
+Download the [ProjectAP v1.1](Application/ProjectAP-v1.1) folder from the Application folder in this repository and from there the .bat file can be used to run the .jar file.
+
+To change initial settings or data of the implemented animals, change the values in the text files in the Data folder of ProjectAP v1.1.
 
 ### Built With
 
